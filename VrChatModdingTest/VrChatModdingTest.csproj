@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{E7C2AE7F-40C4-49BC-B401-CDE40DAE33C5}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>VrChatModdingTest</RootNamespace>
+        <AssemblyName>VrChatModdingTest</AssemblyName>
+        <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="Assembly-CSharp, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\Assembly-CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="Il2Cppmscorlib, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\Il2Cppmscorlib.dll</HintPath>
+        </Reference>
+        <Reference Include="MelonLoader.ModHandler, Version=0.2.2.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\MelonLoader.ModHandler.dll</HintPath>
+        </Reference>
+        <Reference Include="System" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Data.DataSetExtensions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\System.Data.DataSetExtensions.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\System.Drawing.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Xml" />
+        <Reference Include="System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\System.Xml.Linq.dll</HintPath>
+        </Reference>
+        <Reference Include="UnhollowerBaseLib, Version=0.4.6.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnhollowerBaseLib.dll</HintPath>
+        </Reference>
+        <Reference Include="UnhollowerRuntimeLib, Version=0.4.6.0, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnhollowerRuntimeLib.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.AssetBundleModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.ImageConversionModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.PhysicsModule, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UI, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.UI.dll</HintPath>
+        </Reference>
+        <Reference Include="VRCSDKBase, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\VRCSDKBase.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Base\DDS_HEADER.cs" />
+        <Compile Include="Base\Extensions.cs" />
+        <Compile Include="Base\SimpleJSON.cs" />
+        <Compile Include="Helpers\Base\MaterialHelper.cs" />
+        <Compile Include="Helpers\Base\ModelHelper.cs" />
+        <Compile Include="Helpers\Base\TextureHelper.cs" />
+        <Compile Include="Helpers\Base\Util.cs" />
+        <Compile Include="Helpers\Extensions\BoundsExt.cs" />
+        <Compile Include="Helpers\Extensions\ColorExt.cs" />
+        <Compile Include="Helpers\Extensions\GameObjectExt.cs" />
+        <Compile Include="Helpers\Extensions\ResourceExt.cs" />
+        <Compile Include="Helpers\Extensions\TypeExt.cs" />
+        <Compile Include="Helpers\Extensions\VectorExt.cs" />
+        <Compile Include="MyMod.cs" />
+        <Compile Include="ObjLoader\Common\StringExtensions.cs" />
+        <Compile Include="ObjLoader\Data\DataStore\DataStore.cs" />
+        <Compile Include="ObjLoader\Data\DataStore\IDataStore.cs" />
+        <Compile Include="ObjLoader\Data\DataStore\IElementGroup.cs" />
+        <Compile Include="ObjLoader\Data\DataStore\IFaceGroup.cs" />
+        <Compile Include="ObjLoader\Data\DataStore\IGroupDataStore.cs" />
+        <Compile Include="ObjLoader\Data\DataStore\IMaterialLibrary.cs" />
+        <Compile Include="ObjLoader\Data\DataStore\INormalDataStore.cs" />
+        <Compile Include="ObjLoader\Data\DataStore\IObjectDataStore.cs" />
+        <Compile Include="ObjLoader\Data\DataStore\ISubMeshGroup.cs" />
+        <Compile Include="ObjLoader\Data\DataStore\ITextureDataStore.cs" />
+        <Compile Include="ObjLoader\Data\DataStore\IVertexDataStore.cs" />
+        <Compile Include="ObjLoader\Data\Elements\Face.cs" />
+        <Compile Include="ObjLoader\Data\Elements\Group.cs" />
+        <Compile Include="ObjLoader\Data\Elements\SubMesh.cs" />
+        <Compile Include="ObjLoader\Data\Material.cs" />
+        <Compile Include="ObjLoader\Data\Vec3.cs" />
+        <Compile Include="ObjLoader\Data\VertexData\Normal.cs" />
+        <Compile Include="ObjLoader\Data\VertexData\Texture.cs" />
+        <Compile Include="ObjLoader\Data\VertexData\Vertex.cs" />
+        <Compile Include="ObjLoader\Loaders\IMaterialLibraryLoader.cs" />
+        <Compile Include="ObjLoader\Loaders\IMaterialLibraryLoaderFacade.cs" />
+        <Compile Include="ObjLoader\Loaders\IObjLoader.cs" />
+        <Compile Include="ObjLoader\Loaders\IObjLoaderFactory.cs" />
+        <Compile Include="ObjLoader\Loaders\LoaderBase.cs" />
+        <Compile Include="ObjLoader\Loaders\LoadResult.cs" />
+        <Compile Include="ObjLoader\Loaders\MaterialLibraryLoader.cs" />
+        <Compile Include="ObjLoader\Loaders\MaterialLibraryLoaderFacade.cs" />
+        <Compile Include="ObjLoader\Loaders\MaterialStreamProvider.cs" />
+        <Compile Include="ObjLoader\Loaders\ObjLoader.cs" />
+        <Compile Include="ObjLoader\Loaders\ObjLoaderFactory.cs" />
+        <Compile Include="ObjLoader\TypeParsers\FaceParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\GroupParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\Interfaces\IFaceParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\Interfaces\IGroupParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\Interfaces\IMaterialLibraryParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\Interfaces\INormalParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\Interfaces\IObjectParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\Interfaces\ITextureParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\Interfaces\ITypeParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\Interfaces\IUseMaterialParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\Interfaces\IVertexParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\MaterialLibraryParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\NormalParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\ObjectParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\TextureParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\TypeParserBase.cs" />
+        <Compile Include="ObjLoader\TypeParsers\UseMaterialParser.cs" />
+        <Compile Include="ObjLoader\TypeParsers\VertexParser.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="SLog.cs" />
+        <Compile Include="Unity Scripts\ModelData.cs" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>
