@@ -47,6 +47,7 @@ namespace PulsarCRepl
         }
         public void ConsoleWindowDisplay(int windowID)
         {
+            Cursor.lockState = CursorLockMode.None;
             GUILayout.BeginVertical(null);
             GUILayout.Label("Insert Javascript Code below",null);
             CodeScroll = GUILayout.BeginScrollView(CodeScroll,GUIStyle.none,null);
@@ -63,6 +64,7 @@ namespace PulsarCRepl
             if (GUILayout.Button("Close Console",null))
             {
                 ShowJsConsole = false;
+                Cursor.lockState = CursorLockMode.Locked;
             }
             GUILayout.EndVertical();
             GUI.DragWindow();

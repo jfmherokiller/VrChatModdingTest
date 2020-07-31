@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VrChatModdingTest", "VrChat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRChatReplPort", "VRChatReplPort\VRChatReplPort.csproj", "{1DB7B5ED-941A-4702-900A-43ECBDFC6B52}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "JintFiles", "JintFiles\JintFiles.shproj", "{44D92D43-2DE7-4289-80D8-C603E6ED1F01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

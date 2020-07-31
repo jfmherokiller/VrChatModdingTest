@@ -13,6 +13,7 @@
         <AssemblyName>VRChatReplPort</AssemblyName>
         <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
+        <LangVersion>8</LangVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,9 +46,6 @@
         <Reference Include="Il2Cppmscorlib, Version=3.7.1.6, Culture=neutral, PublicKeyToken=null">
           <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\Il2Cppmscorlib.dll</HintPath>
           <Private>False</Private>
-        </Reference>
-        <Reference Include="Jint, Version=0.0.0.0, Culture=neutral, PublicKeyToken=2e92ba9c8d81157f">
-          <HintPath>..\packages\Jint.3.0.0-beta-1868\lib\net461\Jint.dll</HintPath>
         </Reference>
         <Reference Include="MelonLoader.ModHandler, Version=0.2.5.0, Culture=neutral, PublicKeyToken=null">
           <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\MelonLoader.ModHandler.dll</HintPath>
@@ -93,14 +91,12 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="..\..\PulsarMod\PulsarCRepl\JintTypeGeneration.cs">
-          <Link>Properties\JintTypeGeneration.cs</Link>
-        </Compile>
         <Compile Include="Class1.cs" />
         <Compile Include="JavascriptRepl.cs" />
         <Compile Include="JintCombo.cs" />
         <Compile Include="JintConsoleGui.cs" />
         <Compile Include="JintInstance.cs" />
+        <Compile Include="JintTypeGeneration.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
@@ -116,6 +112,7 @@
       <Error Condition="!Exists('..\packages\ModuleInit.Fody.2.1.0\build\ModuleInit.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ModuleInit.Fody.2.1.0\build\ModuleInit.Fody.props'))" />
     </Target>
     <Import Project="..\packages\Fody.6.2.1\build\Fody.targets" Condition="Exists('..\packages\Fody.6.2.1\build\Fody.targets')" />
+    <Import Project="..\JintFiles\JintFiles.projitems" Label="Shared" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
          Other similar extension points exist, see Microsoft.Common.targets.
     <Target Name="BeforeBuild">

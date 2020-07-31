@@ -14,6 +14,7 @@ namespace PulsarCRepl
     
     public class PulsarCRepMod : MelonMod
     {
+        private JintInstance myinstance;
         public void mycode()
         {
             JintBits.RunMe();
@@ -22,6 +23,7 @@ namespace PulsarCRepl
         {
             //StartConsoleBasedRepl();
             //MelonModLogger.Log("Loaded JS");
+            myinstance = new JintInstance();
             ClassInjector.RegisterTypeInIl2Cpp<JintConsoleGui>();
         }
 

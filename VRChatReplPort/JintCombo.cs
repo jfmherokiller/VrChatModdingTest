@@ -14,7 +14,6 @@ namespace PulsarCRepl
         private static readonly Dictionary<string, string> GameDllNames = new Dictionary<string, string>
         {
             {"cs_", "Assembly-CSharp"},
-            {"cs1_", "Assembly-CSharp-firstpass"}
         };
 
         public static Engine AddGameSpecificClasses(Engine myengine, Dictionary<string, string> yourLibraries = null)

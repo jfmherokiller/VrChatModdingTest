@@ -27,4 +27,5 @@
   &lt;Assembly Path="C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnhollowerRuntimeLib.dll" /&gt;&#xD;
   &lt;Assembly Path="C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\Jint.dll" /&gt;&#xD;
   &lt;Assembly Path="C:\Users\peter\RiderProjects\VrChatModdingTest\packages\Esprima.2.0.0-beta-1298\lib\net461\Esprima.dll" /&gt;&#xD;
+  &lt;Assembly Path="C:\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnhollowerBaseLib.dll" /&gt;&#xD;
 &lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

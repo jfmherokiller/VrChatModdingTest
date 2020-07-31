@@ -2,8 +2,13 @@ using System;
 using System.IO;
 using Jint;
 using Jint.Native;
+using Jint.Native.Object;
 using Jint.Runtime;
+using Jint.Runtime.Interop;
+using Jint.Runtime.References;
 using MelonLoader;
+using UnhollowerBaseLib;
+using UnhollowerRuntimeLib;
 using Console = System.Console;
 
 namespace PulsarCRepl
@@ -12,10 +17,32 @@ namespace PulsarCRepl
     {
         private Engine myengine = null;
         private string engineOut;
-
+        
         public JintInstance()
         {
-            myengine = new Engine(cfg => { cfg.AllowClr(AppDomain.CurrentDomain.GetAssemblies()); });
+            myengine = new Engine(
+                cfg =>
+                {
+                    cfg.AllowClr(AppDomain.CurrentDomain.GetAssemblies());
+                    cfg.CatchClrExceptions(exception =>
+                    { 
+                        MelonModLogger.Log(exception.Message);
+                        return true;
+                    });
+                    cfg.SetWrapObjectHandler((engine, target) =>
+                    {
+                        if (target.GetType() == typeof(Il2CppSystem.Type))
+                        {
+                            return null;
+                        }
+                        var instance = new ObjectWrapper(engine,target);
+                        if (instance.IsArrayLike)
+                        {
+                            instance.SetPrototypeOf(engine.Array.PrototypeObject);
+                        }
+                        return instance;
+                    });
+                });
         }
 
         public void SetupEnginePieces()
@@ -29,6 +56,8 @@ namespace PulsarCRepl
                     .GetCompletionValue()));
             //setup Assembly-Csharp,Assembly-csharp-firstpass
             myengine = JintAdditons.AddGameSpecificClasses(myengine);
+            myengine = myengine.Execute(
+                "function testing() {return cs_VRCPlayer.field_Internal_Static_VRCPlayer_0.transform}");
         }
 
         public string GetOutput()
@@ -38,6 +67,7 @@ namespace PulsarCRepl
 
         public void ExecuteCode(string code)
         {
+            IL2CPP.il2cpp_thread_attach(IL2CPP.il2cpp_domain_get());
             try
             {
                 var result = myengine.GetValue(myengine.Execute(code).GetCompletionValue());
