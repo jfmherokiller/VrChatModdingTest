@@ -8,8 +8,13 @@ using Jint.Runtime.Interop;
 using Jint.Runtime.References;
 using MelonLoader;
 using UnhollowerBaseLib;
+using UnhollowerBaseLib.Attributes;
 using UnhollowerRuntimeLib;
+using UnityEngine;
 using Console = System.Console;
+using Int32 = Il2CppSystem.Int32;
+using Object = System.Object;
+using Types = Jint.Runtime.Types;
 
 namespace PulsarCRepl
 {
@@ -29,20 +34,27 @@ namespace PulsarCRepl
                         MelonModLogger.Log(exception.Message);
                         return true;
                     });
-                    cfg.SetWrapObjectHandler((engine, target) =>
-                    {
-                        if (target.GetType() == typeof(Il2CppSystem.Type))
-                        {
-                            return null;
-                        }
-                        var instance = new ObjectWrapper(engine,target);
-                        if (instance.IsArrayLike)
-                        {
-                            instance.SetPrototypeOf(engine.Array.PrototypeObject);
-                        }
-                        return instance;
-                    });
+                    //cfg.AddObjectConverter<Il2IntMyConverter>();
+                    //cfg.AddObjectConverter<Il2floatMyConverter>();
+                    cfg.SetWrapObjectHandler(WrapObjectHandler);
                 });
+        }
+
+        private ObjectInstance WrapObjectHandler(Engine engine, object target)
+        {
+            if (target.ToString() == "Il2CppSystem.Type")
+            {
+                //return new ObjectWrapper(engine, new WrapperClass((Il2CppSystem.Object)target));
+                throw new Exception($"Error you are trying to access an il2cpp type which does not have support yet");
+            }
+
+            var instance = new ObjectWrapper(engine, target);
+            if (instance.IsArrayLike)
+            {
+                instance.SetPrototypeOf(engine.Array.PrototypeObject);
+            }
+
+            return instance;
         }
 
         public void SetupEnginePieces()
@@ -64,7 +76,6 @@ namespace PulsarCRepl
         {
             return engineOut;
         }
-
         public void ExecuteCode(string code)
         {
             IL2CPP.il2cpp_thread_attach(IL2CPP.il2cpp_domain_get());
@@ -85,6 +96,43 @@ namespace PulsarCRepl
             catch (Exception e)
             {
                 engineOut = e.Message;
+            }
+        }
+    }
+
+    public class Il2IntMyConverter : IObjectConverter
+    {
+        public bool TryConvert(Engine engine, object value, out JsValue result)
+        {
+            var myval = (Il2CppSystem.Object) value;
+            try
+            {
+                var myint = myval.Unbox<int>();
+                result = new JsNumber(myint);
+                return true;
+            }
+            catch (Exception e)
+            {
+                result = null;
+                return false;
+            }
+        }
+    }
+    public class Il2floatMyConverter : IObjectConverter
+    {
+        public bool TryConvert(Engine engine, object value, out JsValue result)
+        {
+            var myval = (Il2CppSystem.Object) value;
+            try
+            {
+                var myint = myval.Unbox<float>();
+                result = new JsNumber(myint);
+                return true;
+            }
+            catch (Exception)
+            {
+                result = null;
+                return false;
             }
         }
     }
