@@ -54,11 +54,11 @@ namespace VrchatIrcClient
             GUILayout.EndScrollView();
             if (GUILayout.Button("Run Code",null))
             {
-                CodeInstance.SendChat(CodeString);
+                Class1.myistance.SendChat(CodeString);
             }
             GUILayout.Label("Code Results Below",null);
             OutputScroll = GUILayout.BeginScrollView(OutputScroll,GUIStyle.none,null);
-            GUILayout.TextArea(CodeInstance.GetOutput(),null);
+            GUILayout.TextArea(Class1.myistance.GetOutput(),null);
             GUILayout.EndScrollView();
             if (GUILayout.Button("Close Console",null))
             {

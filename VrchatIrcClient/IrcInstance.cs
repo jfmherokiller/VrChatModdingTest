@@ -13,6 +13,7 @@ namespace VrchatIrcClient
         public IrcInstance()
         {
             myclient = new StandardIrcClient();
+            setup_events();
         }
         public void SendChat(string codeString)
         {
@@ -20,6 +21,21 @@ namespace VrchatIrcClient
             {
                 HandleCommands(codeString);
             }
+        }
+
+        private void setup_events()
+        {
+            myclient.ChannelListReceived += (sender, args) =>
+            {
+                OutputLog += args.Channels.Select(item => item.Name).Join();
+            };
+            myclient.NetworkInformationReceived += (sender, args) => { OutputLog += args.Comment; };
+            myclient.MotdReceived += (sender, args) => { OutputLog += myclient.MessageOfTheDay;};
+            myclient.ErrorMessageReceived += (sender, args) => { OutputLog += args.Message; };
+            ///     Client information is accessible via <see cref="WelcomeMessage" />, <see cref="YourHostMessage" />,
+            ///     <see cref="ServerCreatedMessage" />, <see cref="ServerName" />, <see cref="ServerVersion" />,
+            ///     <see cref="ServerAvailableUserModes" />, and <see cref="ServerAvailableChannelModes" />.
+            myclient.ClientInfoReceived += (sender, args) => { OutputLog += myclient.WelcomeMessage; };
         }
 
         public string GetOutput()
@@ -39,8 +55,6 @@ namespace VrchatIrcClient
                     Distribution = "test",
                     NickName = "vrc_TEST",
                 } );
-                myclient.ListChannels();
-                OutputLog = myclient.Channels.Select(item => item.Name).Join();
             }
             
             if (commandstring.StartsWith("#/joinc"))

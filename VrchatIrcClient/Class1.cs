@@ -10,8 +10,10 @@ namespace VrchatIrcClient
 
     public class Class1 : MelonMod
     {
+        public static IrcInstance myistance;
         public override void OnApplicationStart()
         {
+            myistance = new IrcInstance();
             ClassInjector.RegisterTypeInIl2Cpp<IrcConsoleGui>();
         }
         public override void OnLevelWasLoaded(int level)
