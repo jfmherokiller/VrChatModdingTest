@@ -4,7 +4,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VrChatModdingTest", "VrChat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRChatReplPort", "VRChatReplPort\VRChatReplPort.csproj", "{1DB7B5ED-941A-4702-900A-43ECBDFC6B52}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "JintFiles", "JintFiles\JintFiles.shproj", "{44D92D43-2DE7-4289-80D8-C603E6ED1F01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoPlayerKiller", "VideoPlayerKiller\VideoPlayerKiller.csproj", "{94C98D8C-FBB6-40D1-9E70-E8B3EBDC40CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VrchatIrcClient", "VrchatIrcClient\VrchatIrcClient.csproj", "{84D549FA-E3ED-4C56-B121-95C05FF02708}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,5 +22,13 @@ Global
 		{1DB7B5ED-941A-4702-900A-43ECBDFC6B52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DB7B5ED-941A-4702-900A-43ECBDFC6B52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DB7B5ED-941A-4702-900A-43ECBDFC6B52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C98D8C-FBB6-40D1-9E70-E8B3EBDC40CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C98D8C-FBB6-40D1-9E70-E8B3EBDC40CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C98D8C-FBB6-40D1-9E70-E8B3EBDC40CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C98D8C-FBB6-40D1-9E70-E8B3EBDC40CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D549FA-E3ED-4C56-B121-95C05FF02708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D549FA-E3ED-4C56-B121-95C05FF02708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D549FA-E3ED-4C56-B121-95C05FF02708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D549FA-E3ED-4C56-B121-95C05FF02708}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
