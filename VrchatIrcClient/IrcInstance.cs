@@ -3,6 +3,7 @@ using System.Linq;
 using Harmony;
 using IrcDotNet;
 using MelonLoader;
+using VRC;
 
 namespace VrchatIrcClient
 {
@@ -21,6 +22,10 @@ namespace VrchatIrcClient
             {
                 HandleCommands(codeString);
             }
+            else
+            {
+                myclient.SendRawMessage(codeString);
+            }
         }
 
         private void setup_events()
@@ -36,6 +41,7 @@ namespace VrchatIrcClient
             ///     <see cref="ServerCreatedMessage" />, <see cref="ServerName" />, <see cref="ServerVersion" />,
             ///     <see cref="ServerAvailableUserModes" />, and <see cref="ServerAvailableChannelModes" />.
             myclient.ClientInfoReceived += (sender, args) => { OutputLog += myclient.WelcomeMessage; };
+            myclient.RawMessageReceived += (sender, args) => { OutputLog += args.RawContent; };
         }
 
         public string GetOutput()
@@ -51,9 +57,9 @@ namespace VrchatIrcClient
                 MelonModLogger.Log(hostargs[1]);
                 myclient.Connect(hostargs[0],int.Parse((Il2CppSystem.String)hostargs[1]),false,new IrcServiceRegistrationInfo()
                 {
-                    Description = "TEST",
+                    Description = "A Vrchat user",
                     Distribution = "test",
-                    NickName = "vrc_TEST",
+                    NickName = Player.prop_Player_0.prop_APIUser_0.displayName,
                 } );
             }
             
@@ -62,6 +68,10 @@ namespace VrchatIrcClient
                 var channelname = commandstring.Replace("#/joinc","").Trim();
                 myclient.Channels.First(item => item.Name == channelname).MessageReceived += RecieveMessage;
                 myclient.Channels.Join(channelname);
+            }
+            if (commandstring == ("#/quit"))
+            {
+                myclient.Disconnect();
             }
         }
 
