@@ -11,6 +11,7 @@ namespace VrchatIrcClient
     {
         private StandardIrcClient myclient;
         private string OutputLog;
+
         public IrcInstance()
         {
         }
@@ -39,14 +40,15 @@ namespace VrchatIrcClient
                 OutputLog += args.Channels.Select(item => item.Name).Join();
             };
             myclient.NetworkInformationReceived += (sender, args) => { OutputLog += args.Comment; };
-            myclient.MotdReceived += (sender, args) => { OutputLog += myclient.MessageOfTheDay;};
+            myclient.MotdReceived += (sender, args) => { OutputLog += myclient.MessageOfTheDay; };
             myclient.ErrorMessageReceived += (sender, args) => { OutputLog += args.Message; };
-            ///     Client information is accessible via <see cref="WelcomeMessage" />, <see cref="YourHostMessage" />,
-            ///     <see cref="ServerCreatedMessage" />, <see cref="ServerName" />, <see cref="ServerVersion" />,
-            ///     <see cref="ServerAvailableUserModes" />, and <see cref="ServerAvailableChannelModes" />.
-            myclient.ClientInfoReceived += (sender, args) => { OutputLog += myclient.WelcomeMessage; };
-            myclient.RawMessageReceived += (sender, args) => { OutputLog += args.RawContent; };
-            myclient.RawMessageSent += (sender, args) => { OutputLog += args.RawContent; };
+            myclient.ConnectFailed += (sender, args) => { OutputLog += args.Error.Message; };
+            myclient.Error += (sender, args) => { OutputLog += args.Error.Message; };
+            myclient.ClientInfoReceived += (sender, args) =>
+            {
+                OutputLog +=
+                    $"{myclient.WelcomeMessage}\n {myclient.YourHostMessage}\n {myclient.ServerCreatedMessage}\n {myclient.ServerName}\n {myclient.ServerVersion}\n {myclient.ServerAvailableUserModes}\n {myclient.ServerAvailableChannelModes}";
+            };
         }
 
         public string GetOutput()
@@ -57,13 +59,16 @@ namespace VrchatIrcClient
         public void HandleCommands(string commandstring)
         {
             ConnectMethod(commandstring);
-            
+
             if (commandstring.StartsWith("#/joinc"))
             {
-                var channelname = commandstring.Replace("#/joinc","").Trim();
-                myclient.Channels.First(item => item.Name == channelname).MessageReceived += RecieveMessage;
+                var channelname = commandstring.Replace("#/joinc", "").Trim();
+                var selected = myclient.Channels.First(item => item.Name == channelname);
+                selected.MessageReceived += RecieveMessage;
+                selected.NoticeReceived += (sender, args) => { OutputLog += args.GetText(); };
                 myclient.Channels.Join(channelname);
             }
+
             if (commandstring == ("#/quit"))
             {
                 myclient.Quit("exiting");
@@ -81,9 +86,9 @@ namespace VrchatIrcClient
                 setup_settings();
                 var myreg = new IrcUserRegistrationInfo()
                 {
-                    NickName = Player.prop_Player_0.prop_APIUser_0.displayName.Replace(' ','_'),
-                    UserName = Player.prop_Player_0.prop_APIUser_0.displayName.Substring(0,8),
-                    RealName = Player.prop_Player_0.prop_APIUser_0.displayName.Replace(' ','_')
+                    NickName = Player.prop_Player_0.prop_APIUser_0.displayName.Replace(' ', '_'),
+                    UserName = Player.prop_Player_0.prop_APIUser_0.displayName.Substring(0, 8),
+                    RealName = Player.prop_Player_0.prop_APIUser_0.displayName.Replace(' ', '_')
                 };
                 myclient.Connect(hostargs[0], int.Parse((Il2CppSystem.String) hostargs[1]), false, myreg);
             }
@@ -91,7 +96,7 @@ namespace VrchatIrcClient
 
         public void RecieveMessage(object sender, IrcMessageEventArgs e)
         {
-            var channel = (IrcChannel)sender;
+            var channel = (IrcChannel) sender;
             if (e.Source is IrcUser)
             {
                 // Read message.
