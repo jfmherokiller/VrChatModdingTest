@@ -10,7 +10,7 @@ namespace VrchatIrcClient
     public class IrcInstance
     {
         private StandardIrcClient myclient;
-        private string OutputLog;
+        private string OutputLog = "";
 
         public IrcInstance()
         {
@@ -106,6 +106,11 @@ namespace VrchatIrcClient
             {
                 OutputLog += ($"[{channel.Name}]({e.Source.Name}) Message: {e.Text}.\n");
             }
+        }
+
+        public void ClearChat()
+        {
+            OutputLog = "";
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using MelonLoader;
+using UIExpansionKit.API;
 using UnhollowerRuntimeLib;
 using UnityEngine;
 using VrchatIrcClient;
@@ -11,15 +12,26 @@ namespace VrchatIrcClient
     public class Class1 : MelonMod
     {
         public static IrcInstance myistance;
+        public static VrchatIrcGui guilinkup;
+        public static IrcConsoleGui mygui;
         public override void OnApplicationStart()
         {
             myistance = new IrcInstance();
             ClassInjector.RegisterTypeInIl2Cpp<IrcConsoleGui>();
+            ClassInjector.RegisterTypeInIl2Cpp<VrchatIrcGui>();
+            ExpansionKitApi.RegisterSimpleMenuButton(ExpandedMenu.SocialMenu,"OpenIrcChat",(() => mygui.OpenConsole() ));
         }
         public override void OnLevelWasLoaded(int level)
         {
-            var myobject = new GameObject();
-            myobject.AddComponent<IrcConsoleGui>();
+            var myobject = new GameObject().TryCast<GameObject>();
+            mygui = myobject.AddComponent<IrcConsoleGui>();
+            //var myobject2 = new GameObject().TryCast<GameObject>();
+            //var mychat = myobject.AddComponent<VrchatIrcGui>();
+            //mychat.IntializeGui();
+        }
+
+        public override void OnUpdate()
+        {
         }
     }
 
