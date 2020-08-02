@@ -1791,8 +1791,7 @@ namespace IrcDotNet
         protected virtual void OnServerLinksListReceived(IrcServerLinksListReceivedEventArgs e)
         {
             var handler = ServerLinksListReceived;
-            if (handler != null)
-                handler(this, e);
+            handler?.Invoke(this, e);
         }
 
         /// <summary>

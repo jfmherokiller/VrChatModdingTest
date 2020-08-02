@@ -13,9 +13,13 @@ namespace VrchatIrcClient
         private string OutputLog;
         public IrcInstance()
         {
-            myclient = new StandardIrcClient();
-            setup_events();
         }
+
+        private void setup_settings()
+        {
+            myclient.FloodPreventer = new IrcStandardFloodPreventer(4, 2000);
+        }
+
         public void SendChat(string codeString)
         {
             if (codeString.StartsWith("#/"))
@@ -42,6 +46,7 @@ namespace VrchatIrcClient
             ///     <see cref="ServerAvailableUserModes" />, and <see cref="ServerAvailableChannelModes" />.
             myclient.ClientInfoReceived += (sender, args) => { OutputLog += myclient.WelcomeMessage; };
             myclient.RawMessageReceived += (sender, args) => { OutputLog += args.RawContent; };
+            myclient.RawMessageSent += (sender, args) => { OutputLog += args.RawContent; };
         }
 
         public string GetOutput()
@@ -51,17 +56,7 @@ namespace VrchatIrcClient
 
         public void HandleCommands(string commandstring)
         {
-            if (commandstring.StartsWith("#/connect"))
-            {
-                var hostargs = commandstring.Replace("#/connect", "").Trim().Split(' ');
-                MelonModLogger.Log(hostargs[1]);
-                myclient.Connect(hostargs[0],int.Parse((Il2CppSystem.String)hostargs[1]),false,new IrcServiceRegistrationInfo()
-                {
-                    Description = "A Vrchat user",
-                    Distribution = "test",
-                    NickName = Player.prop_Player_0.prop_APIUser_0.displayName,
-                } );
-            }
+            ConnectMethod(commandstring);
             
             if (commandstring.StartsWith("#/joinc"))
             {
@@ -71,7 +66,26 @@ namespace VrchatIrcClient
             }
             if (commandstring == ("#/quit"))
             {
-                myclient.Disconnect();
+                myclient.Quit("exiting");
+                myclient.Dispose();
+            }
+        }
+
+        private void ConnectMethod(string commandstring)
+        {
+            if (commandstring.StartsWith("#/connect"))
+            {
+                var hostargs = commandstring.Replace("#/connect", "").Trim().Split(' ');
+                myclient = new StandardIrcClient();
+                setup_events();
+                setup_settings();
+                var myreg = new IrcUserRegistrationInfo()
+                {
+                    NickName = Player.prop_Player_0.prop_APIUser_0.displayName.Replace(' ','_'),
+                    UserName = Player.prop_Player_0.prop_APIUser_0.displayName.Substring(0,8),
+                    RealName = Player.prop_Player_0.prop_APIUser_0.displayName.Replace(' ','_')
+                };
+                myclient.Connect(hostargs[0], int.Parse((Il2CppSystem.String) hostargs[1]), false, myreg);
             }
         }
 
