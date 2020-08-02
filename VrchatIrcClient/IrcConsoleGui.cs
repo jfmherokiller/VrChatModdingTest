@@ -52,7 +52,7 @@ namespace VrchatIrcClient
             CodeScroll = GUILayout.BeginScrollView(CodeScroll,GUIStyle.none,null);
             CodeString = GUILayout.TextArea(CodeString,null);
             GUILayout.EndScrollView();
-            if (GUILayout.Button("Run Code",null))
+            if (GUILayout.Button("Send Command",null))
             {
                 Class1.myistance.SendChat(CodeString);
             }
@@ -60,6 +60,10 @@ namespace VrchatIrcClient
             OutputScroll = GUILayout.BeginScrollView(OutputScroll,GUIStyle.none,null);
             GUILayout.TextArea(Class1.myistance.GetOutput(),null);
             GUILayout.EndScrollView();
+            if (GUILayout.Button("Clear Output",null))
+            {
+                Class1.myistance.ClearChat();
+            }
             if (GUILayout.Button("Close Console",null))
             {
                 ShowJsConsole = false;
@@ -79,6 +83,6 @@ namespace VrchatIrcClient
         {
             ShowJsConsole = true;
         }
-        
+
     }
 }
