@@ -1,0 +1,10 @@
+C:\Users\peter\RiderProjects\VrChatModdingTest\MacroTesting\obj\Debug\MacroTesting.csprojAssemblyReference.cache
+C:\Users\peter\RiderProjects\VrChatModdingTest\MacroTesting\obj\Debug\MacroTesting.csproj.CoreCompileInputs.cache
+C:\Users\peter\RiderProjects\VrChatModdingTest\MacroTesting\bin\Debug\MacroTesting.dll
+C:\Users\peter\RiderProjects\VrChatModdingTest\MacroTesting\bin\Debug\MacroTesting.pdb
+C:\Users\peter\RiderProjects\VrChatModdingTest\MacroTesting\bin\Debug\UnityEngine.dll
+C:\Users\peter\RiderProjects\VrChatModdingTest\MacroTesting\obj\Debug\MacroTesting.csproj.CopyComplete
+C:\Users\peter\RiderProjects\VrChatModdingTest\MacroTesting\obj\Debug\MacroTesting.dll
+C:\Users\peter\RiderProjects\VrChatModdingTest\MacroTesting\obj\Debug\MacroTesting.pdb
+C:\Users\peter\RiderProjects\VrChatModdingTest\MacroTesting\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\peter\RiderProjects\VrChatModdingTest\MacroTesting\bin\Debug\System.Diagnostics.DiagnosticSource.xml

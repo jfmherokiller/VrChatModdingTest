@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\peter\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\peter\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_VrChatModdingTest.-1549335671.00" t="ExcludeRecursive" />
+    <e p="C:\Users\peter\RiderProjects\VrChatModdingTest" t="IncludeFlat">
+      <e p="MacroTesting" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MacroTesting.csproj" t="IncludeRecursive" />
+        <e p="MonoBehaviour1.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="RealBrowser" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="costura64" t="Include">
+          <e p="cef.pak" t="Include" />
+          <e p="cef_100_percent.pak" t="Include" />
+          <e p="cef_200_percent.pak" t="Include" />
+          <e p="cef_extensions.pak" t="Include" />
+          <e p="chrome_elf.dll" t="Include" />
+          <e p="d3dcompiler_47.dll" t="Include" />
+          <e p="devtools_resources.pak" t="Include" />
+          <e p="icudtl.dat" t="Include" />
+          <e p="libcef.dll" t="Include" />
+          <e p="libEGL.dll" t="Include" />
+          <e p="libGLESv2.dll" t="Include" />
+          <e p="locales" t="Include">
+            <e p="am.pak" t="Include" />
+            <e p="ar.pak" t="Include" />
+            <e p="bg.pak" t="Include" />
+            <e p="bn.pak" t="Include" />
+            <e p="ca.pak" t="Include" />
+            <e p="cs.pak" t="Include" />
+            <e p="da.pak" t="Include" />
+            <e p="de.pak" t="Include" />
+            <e p="el.pak" t="Include" />
+            <e p="en-GB.pak" t="Include" />
+            <e p="en-US.pak" t="Include" />
+            <e p="es-419.pak" t="Include" />
+            <e p="es.pak" t="Include" />
+            <e p="et.pak" t="Include" />
+            <e p="fa.pak" t="Include" />
+            <e p="fi.pak" t="Include" />
+            <e p="fil.pak" t="Include" />
+            <e p="fr.pak" t="Include" />
+            <e p="gu.pak" t="Include" />
+            <e p="he.pak" t="Include" />
+            <e p="hi.pak" t="Include" />
+            <e p="hr.pak" t="Include" />
+            <e p="hu.pak" t="Include" />
+            <e p="id.pak" t="Include" />
+            <e p="it.pak" t="Include" />
+            <e p="ja.pak" t="Include" />
+            <e p="kn.pak" t="Include" />
+            <e p="ko.pak" t="Include" />
+            <e p="lt.pak" t="Include" />
+            <e p="lv.pak" t="Include" />
+            <e p="ml.pak" t="Include" />
+            <e p="mr.pak" t="Include" />
+            <e p="ms.pak" t="Include" />
+            <e p="nb.pak" t="Include" />
+            <e p="nl.pak" t="Include" />
+            <e p="pl.pak" t="Include" />
+            <e p="pt-BR.pak" t="Include" />
+            <e p="pt-PT.pak" t="Include" />
+            <e p="ro.pak" t="Include" />
+            <e p="ru.pak" t="Include" />
+            <e p="sk.pak" t="Include" />
+            <e p="sl.pak" t="Include" />
+            <e p="sr.pak" t="Include" />
+            <e p="sv.pak" t="Include" />
+            <e p="sw.pak" t="Include" />
+            <e p="ta.pak" t="Include" />
+            <e p="te.pak" t="Include" />
+            <e p="th.pak" t="Include" />
+            <e p="tr.pak" t="Include" />
+            <e p="uk.pak" t="Include" />
+            <e p="vi.pak" t="Include" />
+            <e p="zh-CN.pak" t="Include" />
+            <e p="zh-TW.pak" t="Include" />
+          </e>
+          <e p="snapshot_blob.bin" t="Include" />
+        </e>
+        <e p="MonoBehaviour1.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="OffScreenCEF.cs" t="Include" />
+        <e p="OffscreenCEFCLient.cs" t="Include" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="RealBrowser.csproj" t="IncludeRecursive" />
+        <e p="SizeT.cs" t="Include" />
+      </e>
+      <e p="VideoPlayerKiller" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="VideoPlayerKiller.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="vrchatHumanized" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="vrchatHumanized.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="VrchatIrcClient" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ButtonApi.cs" t="Include" />
+        <e p="Class1.cs" t="Include" />
+        <e p="IrcConsoleGui.cs" t="Include" />
+        <e p="IrcInstance.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="myrez.Designer.cs" t="Include" />
+          <e p="myrez.resx" t="Include" />
+        </e>
+        <e p="source" t="Include">
+          <e p="IrcDotNet" t="Include">
+            <e p="CircularBufferStream.cs" t="Include" />
+            <e p="Collections" t="Include">
+              <e p="CollectionsUtilities.cs" t="Include" />
+              <e p="ReadOnlyDictionary.cs" t="Include" />
+              <e p="ReadOnlySet.cs" t="Include" />
+            </e>
+            <e p="CollectionUtilities.cs" t="Include" />
+            <e p="Ctcp" t="Include">
+              <e p="CtcpClient.cs" t="Include" />
+              <e p="CtcpClientMessageProcessing.cs" t="Include" />
+              <e p="CtcpClientMessageSending.cs" t="Include" />
+              <e p="CtcpEventArgs.cs" t="Include" />
+            </e>
+            <e p="DebugUtilities.cs" t="Include" />
+            <e p="IIrcFloodPreventer.cs" t="Include" />
+            <e p="IIrcMessageReceiveHandler.cs" t="Include" />
+            <e p="IIrcMessageReceiver.cs" t="Include" />
+            <e p="IIrcMessageSendHandler.cs" t="Include" />
+            <e p="IIrcMessageSource.cs" t="Include" />
+            <e p="IIrcMessageTarget.cs" t="Include" />
+            <e p="IrcChannel.cs" t="Include" />
+            <e p="IrcChannelCollection.cs" t="Include" />
+            <e p="IrcChannelInfo.cs" t="Include" />
+            <e p="IrcChannelUser.cs" t="Include" />
+            <e p="IrcChannelUserCollection.cs" t="Include" />
+            <e p="IrcClient.cs" t="Include" />
+            <e p="IrcClientMessageProcessing.cs" t="Include" />
+            <e p="IrcClientMessageSending.cs" t="Include" />
+            <e p="IrcEventArgs.cs" t="Include" />
+            <e p="IrcLocalUser.cs" t="Include" />
+            <e p="IrcNetworkInfo.cs" t="Include" />
+            <e p="IrcRegistrationInfo.cs" t="Include" />
+            <e p="IrcServer.cs" t="Include" />
+            <e p="IrcServerInfo.cs" t="Include" />
+            <e p="IrcServerStatisticalEntry.cs" t="Include" />
+            <e p="IrcStandardFloodPreventer.cs" t="Include" />
+            <e p="IrcTargetMask.cs" t="Include" />
+            <e p="IrcUser.cs" t="Include" />
+            <e p="IrcUserCollection.cs" t="Include" />
+            <e p="IrcUtilities.cs" t="Include" />
+            <e p="MessageProcessorAttribute.cs" t="Include" />
+            <e p="Properties" t="Include">
+              <e p="Resources.Designer.cs" t="Include" />
+            </e>
+            <e p="ReflectionUtilities.cs" t="Include" />
+            <e p="SafeLineReader.cs" t="Include" />
+            <e p="StandardIrcClient.cs" t="Include" />
+            <e p="TextUtilities.cs" t="Include" />
+            <e p="TwitchIrcClient.cs" t="Include" />
+          </e>
+        </e>
+        <e p="VrchatIrcClient.csproj" t="IncludeRecursive" />
+        <e p="VrchatIrcGui.cs" t="Include" />
+      </e>
+      <e p="VrChatModdingTest" t="IncludeRecursive">
+        <e p="Base" t="Include">
+          <e p="DDS_HEADER.cs" t="Include" />
+          <e p="Extensions.cs" t="Include" />
+          <e p="SimpleJSON.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Helpers" t="Include">
+          <e p="Base" t="Include">
+            <e p="MaterialHelper.cs" t="Include" />
+            <e p="ModelHelper.cs" t="Include" />
+            <e p="TextureHelper.cs" t="Include" />
+            <e p="Util.cs" t="Include" />
+          </e>
+          <e p="Extensions" t="Include">
+            <e p="BoundsExt.cs" t="Include" />
+            <e p="ColorExt.cs" t="Include" />
+            <e p="GameObjectExt.cs" t="Include" />
+            <e p="ResourceExt.cs" t="Include" />
+            <e p="TypeExt.cs" t="Include" />
+            <e p="VectorExt.cs" t="Include" />
+          </e>
+        </e>
+        <e p="MyMod.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="ObjLoader" t="Include">
+          <e p="Common" t="Include">
+            <e p="StringExtensions.cs" t="Include" />
+          </e>
+          <e p="Data" t="Include">
+            <e p="DataStore" t="Include">
+              <e p="DataStore.cs" t="Include" />
+              <e p="IDataStore.cs" t="Include" />
+              <e p="IElementGroup.cs" t="Include" />
+              <e p="IFaceGroup.cs" t="Include" />
+              <e p="IGroupDataStore.cs" t="Include" />
+              <e p="IMaterialLibrary.cs" t="Include" />
+              <e p="INormalDataStore.cs" t="Include" />
+              <e p="IObjectDataStore.cs" t="Include" />
+              <e p="ISubMeshGroup.cs" t="Include" />
+              <e p="ITextureDataStore.cs" t="Include" />
+              <e p="IVertexDataStore.cs" t="Include" />
+            </e>
+            <e p="Elements" t="Include">
+              <e p="Face.cs" t="Include" />
+              <e p="Group.cs" t="Include" />
+              <e p="SubMesh.cs" t="Include" />
+            </e>
+            <e p="Material.cs" t="Include" />
+            <e p="Vec3.cs" t="Include" />
+            <e p="VertexData" t="Include">
+              <e p="Normal.cs" t="Include" />
+              <e p="Texture.cs" t="Include" />
+              <e p="Vertex.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Loaders" t="Include">
+            <e p="IMaterialLibraryLoader.cs" t="Include" />
+            <e p="IMaterialLibraryLoaderFacade.cs" t="Include" />
+            <e p="IObjLoader.cs" t="Include" />
+            <e p="IObjLoaderFactory.cs" t="Include" />
+            <e p="LoaderBase.cs" t="Include" />
+            <e p="LoadResult.cs" t="Include" />
+            <e p="MaterialLibraryLoader.cs" t="Include" />
+            <e p="MaterialLibraryLoaderFacade.cs" t="Include" />
+            <e p="MaterialStreamProvider.cs" t="Include" />
+            <e p="ObjLoader.cs" t="Include" />
+            <e p="ObjLoaderFactory.cs" t="Include" />
+          </e>
+          <e p="TypeParsers" t="Include">
+            <e p="FaceParser.cs" t="Include" />
+            <e p="GroupParser.cs" t="Include" />
+            <e p="Interfaces" t="Include">
+              <e p="IFaceParser.cs" t="Include" />
+              <e p="IGroupParser.cs" t="Include" />
+              <e p="IMaterialLibraryParser.cs" t="Include" />
+              <e p="INormalParser.cs" t="Include" />
+              <e p="IObjectParser.cs" t="Include" />
+              <e p="ITextureParser.cs" t="Include" />
+              <e p="ITypeParser.cs" t="Include" />
+              <e p="IUseMaterialParser.cs" t="Include" />
+              <e p="IVertexParser.cs" t="Include" />
+            </e>
+            <e p="MaterialLibraryParser.cs" t="Include" />
+            <e p="NormalParser.cs" t="Include" />
+            <e p="ObjectParser.cs" t="Include" />
+            <e p="TextureParser.cs" t="Include" />
+            <e p="TypeParserBase.cs" t="Include" />
+            <e p="UseMaterialParser.cs" t="Include" />
+            <e p="VertexParser.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SLog.cs" t="Include" />
+        <e p="Unity Scripts" t="Include">
+          <e p="ModelData.cs" t="Include" />
+        </e>
+        <e p="VrChatModdingTest.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="VrChatModdingTest.sln" t="IncludeFlat" />
+      <e p="VRChatReplPort" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Class1.cs" t="Include" />
+        <e p="JavascriptRepl.cs" t="Include" />
+        <e p="JintCombo.cs" t="Include" />
+        <e p="JintConsoleGui.cs" t="Include" />
+        <e p="JintInstance.cs" t="Include" />
+        <e p="JintTypeGeneration.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="VRChatReplPort.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="WebrowserTesting" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="MonoBehaviour1.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="WebrowserTesting.csproj" t="IncludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>

@@ -1,0 +1,7 @@
+C:\Users\peter\RiderProjects\VrChatModdingTest\VRChatReplPort\obj\Debug\VRChatReplPort.csprojAssemblyReference.cache
+C:\Users\peter\RiderProjects\VrChatModdingTest\VRChatReplPort\obj\Debug\VRChatReplPort.csproj.CoreCompileInputs.cache
+C:\Users\peter\RiderProjects\VrChatModdingTest\VRChatReplPort\bin\Debug\VRChatReplPort.dll
+C:\Users\peter\RiderProjects\VrChatModdingTest\VRChatReplPort\bin\Debug\VRChatReplPort.pdb
+C:\Users\peter\RiderProjects\VrChatModdingTest\VRChatReplPort\obj\Debug\VRChatReplPort.dll
+C:\Users\peter\RiderProjects\VrChatModdingTest\VRChatReplPort\obj\Debug\VRChatReplPort.pdb
+C:\Users\peter\RiderProjects\VrChatModdingTest\VRChatReplPort\obj\Debug\VRChatReplPort.csproj.Fody.CopyLocal.cache

@@ -1,0 +1,6 @@
+C:\Users\peter\RiderProjects\VrChatModdingTest\vrchatHumanized\bin\Debug\vrchatHumanized.dll
+C:\Users\peter\RiderProjects\VrChatModdingTest\vrchatHumanized\bin\Debug\vrchatHumanized.pdb
+C:\Users\peter\RiderProjects\VrChatModdingTest\vrchatHumanized\obj\Debug\vrchatHumanized.csprojAssemblyReference.cache
+C:\Users\peter\RiderProjects\VrChatModdingTest\vrchatHumanized\obj\Debug\vrchatHumanized.csproj.CoreCompileInputs.cache
+C:\Users\peter\RiderProjects\VrChatModdingTest\vrchatHumanized\obj\Debug\vrchatHumanized.dll
+C:\Users\peter\RiderProjects\VrChatModdingTest\vrchatHumanized\obj\Debug\vrchatHumanized.pdb
