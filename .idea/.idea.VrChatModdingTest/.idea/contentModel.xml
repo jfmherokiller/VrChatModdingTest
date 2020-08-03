@@ -17,74 +17,14 @@
       <e p="RealBrowser" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="costura64" t="Include">
-          <e p="cef.pak" t="Include" />
-          <e p="cef_100_percent.pak" t="Include" />
-          <e p="cef_200_percent.pak" t="Include" />
-          <e p="cef_extensions.pak" t="Include" />
           <e p="chrome_elf.dll" t="Include" />
           <e p="d3dcompiler_47.dll" t="Include" />
-          <e p="devtools_resources.pak" t="Include" />
-          <e p="icudtl.dat" t="Include" />
           <e p="libcef.dll" t="Include" />
           <e p="libEGL.dll" t="Include" />
           <e p="libGLESv2.dll" t="Include" />
-          <e p="locales" t="Include">
-            <e p="am.pak" t="Include" />
-            <e p="ar.pak" t="Include" />
-            <e p="bg.pak" t="Include" />
-            <e p="bn.pak" t="Include" />
-            <e p="ca.pak" t="Include" />
-            <e p="cs.pak" t="Include" />
-            <e p="da.pak" t="Include" />
-            <e p="de.pak" t="Include" />
-            <e p="el.pak" t="Include" />
-            <e p="en-GB.pak" t="Include" />
-            <e p="en-US.pak" t="Include" />
-            <e p="es-419.pak" t="Include" />
-            <e p="es.pak" t="Include" />
-            <e p="et.pak" t="Include" />
-            <e p="fa.pak" t="Include" />
-            <e p="fi.pak" t="Include" />
-            <e p="fil.pak" t="Include" />
-            <e p="fr.pak" t="Include" />
-            <e p="gu.pak" t="Include" />
-            <e p="he.pak" t="Include" />
-            <e p="hi.pak" t="Include" />
-            <e p="hr.pak" t="Include" />
-            <e p="hu.pak" t="Include" />
-            <e p="id.pak" t="Include" />
-            <e p="it.pak" t="Include" />
-            <e p="ja.pak" t="Include" />
-            <e p="kn.pak" t="Include" />
-            <e p="ko.pak" t="Include" />
-            <e p="lt.pak" t="Include" />
-            <e p="lv.pak" t="Include" />
-            <e p="ml.pak" t="Include" />
-            <e p="mr.pak" t="Include" />
-            <e p="ms.pak" t="Include" />
-            <e p="nb.pak" t="Include" />
-            <e p="nl.pak" t="Include" />
-            <e p="pl.pak" t="Include" />
-            <e p="pt-BR.pak" t="Include" />
-            <e p="pt-PT.pak" t="Include" />
-            <e p="ro.pak" t="Include" />
-            <e p="ru.pak" t="Include" />
-            <e p="sk.pak" t="Include" />
-            <e p="sl.pak" t="Include" />
-            <e p="sr.pak" t="Include" />
-            <e p="sv.pak" t="Include" />
-            <e p="sw.pak" t="Include" />
-            <e p="ta.pak" t="Include" />
-            <e p="te.pak" t="Include" />
-            <e p="th.pak" t="Include" />
-            <e p="tr.pak" t="Include" />
-            <e p="uk.pak" t="Include" />
-            <e p="vi.pak" t="Include" />
-            <e p="zh-CN.pak" t="Include" />
-            <e p="zh-TW.pak" t="Include" />
-          </e>
-          <e p="snapshot_blob.bin" t="Include" />
         </e>
+        <e p="data.zip" t="Include" />
+        <e p="ExtractBrowserDependencies.cs" t="Include" />
         <e p="MonoBehaviour1.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="OffScreenCEF.cs" t="Include" />
@@ -92,6 +32,8 @@
         <e p="packages.config" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
+          <e p="myres.Designer.cs" t="Include" />
+          <e p="myres.resx" t="Include" />
         </e>
         <e p="RealBrowser.csproj" t="IncludeRecursive" />
         <e p="SizeT.cs" t="Include" />

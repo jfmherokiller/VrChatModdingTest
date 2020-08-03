@@ -10,6 +10,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VrchatIrcClient", "VrchatIr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vrchatHumanized", "vrchatHumanized\vrchatHumanized.csproj", "{64E56DF2-F310-4077-A38D-B4125BA7F5E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebrowserTesting", "WebrowserTesting\WebrowserTesting.csproj", "{D958D886-E063-4BC6-AD13-CCF3BB25F032}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacroTesting", "MacroTesting\MacroTesting.csproj", "{99C99FEB-B174-45A9-BCC9-F284793F1457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealBrowser", "RealBrowser\RealBrowser.csproj", "{6E3933D6-0B5F-435C-ABD0-D98117C7529D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +42,17 @@ Global
 		{64E56DF2-F310-4077-A38D-B4125BA7F5E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64E56DF2-F310-4077-A38D-B4125BA7F5E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64E56DF2-F310-4077-A38D-B4125BA7F5E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D958D886-E063-4BC6-AD13-CCF3BB25F032}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D958D886-E063-4BC6-AD13-CCF3BB25F032}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D958D886-E063-4BC6-AD13-CCF3BB25F032}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D958D886-E063-4BC6-AD13-CCF3BB25F032}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C99FEB-B174-45A9-BCC9-F284793F1457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C99FEB-B174-45A9-BCC9-F284793F1457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C99FEB-B174-45A9-BCC9-F284793F1457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C99FEB-B174-45A9-BCC9-F284793F1457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E3933D6-0B5F-435C-ABD0-D98117C7529D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3933D6-0B5F-435C-ABD0-D98117C7529D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3933D6-0B5F-435C-ABD0-D98117C7529D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3933D6-0B5F-435C-ABD0-D98117C7529D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

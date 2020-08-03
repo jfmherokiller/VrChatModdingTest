@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="626da156-4262-482d-a1eb-7a8ecbdac776" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RealBrowser/OffScreenCEF.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RealBrowser/OffscreenCEFCLient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RealBrowser/SizeT.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VrChatModdingTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VrChatModdingTest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VrChatModdingTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VrChatModdingTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacroTesting/bin/Debug/MacroTesting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MacroTesting/bin/Debug/MacroTesting.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacroTesting/bin/Debug/MacroTesting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MacroTesting/bin/Debug/MacroTesting.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacroTesting/obj/Debug/MacroTesting.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MacroTesting/obj/Debug/MacroTesting.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacroTesting/obj/Debug/MacroTesting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MacroTesting/obj/Debug/MacroTesting.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacroTesting/obj/Debug/MacroTesting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MacroTesting/obj/Debug/MacroTesting.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealBrowser/bin/Debug/RealBrowser.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/bin/Debug/RealBrowser.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealBrowser/bin/Debug/RealBrowser.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/bin/Debug/RealBrowser.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VRChatReplPort/obj/Debug/VRChatReplPort.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VRChatReplPort/obj/Debug/VRChatReplPort.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VideoPlayerKiller/obj/Debug/VideoPlayerKiller.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlayerKiller/obj/Debug/VideoPlayerKiller.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/VrChatModdingTest.sln" beforeDir="false" afterPath="$PROJECT_DIR$/VrChatModdingTest.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VrChatModdingTest.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/VrChatModdingTest.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VrChatModdingTest.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VrchatIrcClient/obj/Debug/VrchatIrcClient.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VrchatIrcClient/obj/Debug/VrchatIrcClient.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebrowserTesting/obj/Debug/WebrowserTesting.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebrowserTesting/obj/Debug/WebrowserTesting.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vrchatHumanized/obj/Debug/vrchatHumanized.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/vrchatHumanized/obj/Debug/vrchatHumanized.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +71,10 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1EEFB801-D711-4467-B4C9-A3DAE7E5C3C0/62/21b115b4/IrcClient.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/c1/77820dd8/AlsoInitializeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/ff/3f4a4581/ObfuscatedNameAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD343A00-7478-4241-8FFB-DBB924B156DC/0d/6ff4bfff/CefRenderHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/References/Reference.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/7c/9ed38f19/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD343A00-7478-4241-8FFB-DBB924B156DC/18/a1573b7e/CefApp.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/DataStore/IFaceGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1EEFB801-D711-4467-B4C9-A3DAE7E5C3C0/eb/439af497/IrcServiceRegistrationInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/vrchatHumanized/Class1.cs" root0="FORCE_HIGHLIGHTING" />
@@ -81,6 +100,7 @@
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/Interfaces/ITypeParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/90/85a56ad9/Il2CppObjectBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/Interfaces/ITextureParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MacroTesting/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/Interfaces/IVertexParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/Interfaces/INormalParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1A6690BF-1A0F-4CA3-8695-463187FB14E9/a6/902fea79/VRC_UiShape.cs" root0="SKIP_HIGHLIGHTING" />
@@ -102,12 +122,16 @@
     <setting file="file://$PROJECT_DIR$/VrchatIrcClient/IrcInstance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BCDAC8F0-893B-4B7B-BD0D-5ED871E6A2E5/96/2facad55/VRC_Interactable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3207F793-103A-4674-9454-15848BB40CC8/28/e501947f/DelegateSupport.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD343A00-7478-4241-8FFB-DBB924B156DC/d7/9d263489/CefResourceBundleHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RealBrowser/OffScreenCEF.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/503F9281-FE26-46C4-BDE5-E8F4226427BD/77/e5134c4d/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/C0B2CCAE-143C-4C3A-B0B4-042FBF27FD0B/31/0c18efd8/Esprima.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/72/987e1d5a/IL2CPP.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://D:/cefglue-master/CefGlue/Classes.Handlers/CefRenderHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/107D1CC3-9921-484A-864D-A38AFAFAC52E/eb/add2c97a/IEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RealBrowser/MonoBehaviour1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RealBrowser/OffscreenCEFCLient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RealBrowser/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Unity Scripts/ModelData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/SLog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Helpers/Base/ModelHelper.cs" root0="FORCE_HIGHLIGHTING" />
@@ -119,18 +143,22 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FF705DDD-C558-446C-9CEE-C7A2D160E1AA/cd/7b0f85cc/DelegateSupport.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VideoPlayerKiller/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6989DD71-47B8-4D84-A230-71A2322D70BC/1A/Reference.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/5d/3d05326b/IEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Descriptors/Specialized/IndexDescriptor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RealBrowser/Properties/myres.resx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/245EF205-F9BC-4A55-A148-1BF82ABE0146/85/f38028fe/Single.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/Elements/Group.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/Elements/Face.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6989DD71-47B8-4D84-A230-71A2322D70BC/52/ObjectWrapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/IrcChannel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RealBrowser/ExtractBrowserDependencies.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/VertexParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Descriptors/Specialized/PropertyInfoDescriptor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/IrcClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/UseMaterialParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/TypeParserBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VRChatReplPort/JintInstance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RealBrowser/Properties/myres.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/TextureParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/ObjectParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F7CF39F2-18B8-4A02-B862-F021A7623B13/0f/f624d6ea/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
@@ -156,6 +184,7 @@
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Loaders/IMaterialLibraryLoaderFacade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Loaders/IMaterialLibraryLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Common/StringExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/503F9281-FE26-46C4-BDE5-E8F4226427BD/40/758f6378/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/Vec3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/Material.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/984CFAA5-7DB5-46CE-A079-ED54168439CE/d1/b46a91f5/AssetBundle.cs" root0="SKIP_HIGHLIGHTING" />
@@ -179,9 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/FaceParser.cs" />
-        <option value="$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/MaterialLibraryParser.cs" />
-        <option value="$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/NormalParser.cs" />
         <option value="$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/TextureParser.cs" />
         <option value="$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/VertexParser.cs" />
         <option value="$PROJECT_DIR$/VrChatModdingTest/Unity Scripts/ModelData.cs" />
@@ -225,11 +251,14 @@
         <option value="$PROJECT_DIR$/VrchatIrcClient/IrcConsoleGui.cs" />
         <option value="$PROJECT_DIR$/WebrowserTesting/MonoBehaviour1.cs" />
         <option value="$PROJECT_DIR$/RealBrowser/SizeT.cs" />
+        <option value="$PROJECT_DIR$/RealBrowser/FodyWeavers.xml" />
+        <option value="$PROJECT_DIR$/RealBrowser/Properties/myres.Designer.cs" />
+        <option value="$PROJECT_DIR$/RealBrowser/ExtractBrowserDependencies.cs" />
         <option value="$PROJECT_DIR$/MacroTesting/MonoBehaviour1.cs" />
         <option value="$PROJECT_DIR$/RealBrowser/MonoBehaviour1.cs" />
         <option value="$PROJECT_DIR$/RealBrowser/OffScreenCEF.cs" />
-        <option value="$PROJECT_DIR$/RealBrowser/FodyWeavers.xml" />
         <option value="$PROJECT_DIR$/RealBrowser/OffscreenCEFCLient.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -292,7 +321,8 @@
       <workItem from="1596350867306" duration="3077000" />
       <workItem from="1596404726713" duration="2723000" />
       <workItem from="1596412881221" duration="9678000" />
-      <workItem from="1596434259371" duration="3972000" />
+      <workItem from="1596434259371" duration="4238000" />
+      <workItem from="1596485882827" duration="11113000" />
     </task>
     <task id="LOCAL-00001" summary="push latest code changes">
       <created>1596225744368</created>
@@ -357,7 +387,21 @@
       <option name="project" value="LOCAL" />
       <updated>1596350030579</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add latest expirments">
+      <created>1596438499515</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596438499515</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update git ignore">
+      <created>1596497028930</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1596497028930</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
@@ -373,13 +417,15 @@
     <MESSAGE value="push working form of the irc client" />
     <MESSAGE value="push latest changes (adds a button to open the imgui ui" />
     <MESSAGE value="add button to clear chat;" />
-    <option name="LAST_COMMIT_MESSAGE" value="add button to clear chat;" />
+    <MESSAGE value="add latest expirments" />
+    <MESSAGE value="update git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update git ignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="98" key="CommitChangelistDialog2" timestamp="1596350029797">
+    <state x="585" y="98" key="CommitChangelistDialog2" timestamp="1596497025226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="98" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596350029797" />
+    <state x="585" y="98" key="CommitChangelistDialog2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596497025226" />
     <state x="812" y="418" key="Github.ShareDialog" timestamp="1596136540666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -396,18 +442,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="669" y="221" key="RiderGenerateDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596434315246" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1596051752163">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1596486425075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596051752163" />
+    <state x="461" y="165" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596486425075" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596311843748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596311843748" />
-    <state x="759" y="255" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1596322467712">
+    <state x="759" y="255" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1596438468385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="759" y="255" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596322467712" />
+    <state x="759" y="255" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596438468385" />
     <state x="638" y="253" width="644" height="534" key="find.popup" timestamp="1596242387747">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
