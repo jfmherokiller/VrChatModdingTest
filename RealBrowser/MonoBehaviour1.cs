@@ -11,7 +11,6 @@ namespace RealBrowser
         public override void OnApplicationStart()
         {
             ClassInjector.RegisterTypeInIl2Cpp<OffscreenCEF>();
-            ExtractBrowserDependencies.ExtractContent();
         }
 
         public override void OnUpdate()
@@ -22,6 +21,14 @@ namespace RealBrowser
                 var myscript = mygame.AddComponent<OffscreenCEF>().TryCast<OffscreenCEF>();
                 mygame.transform.position = VRCPlayer.field_Internal_Static_VRCPlayer_0.transform.position;
             }
+        }
+    }
+    public static class ModuleInitializer
+    {
+        public static void Initialize()
+        {
+            ExtractBrowserDependencies.ExtractContent();
+            CosturaUtility.Initialize();
         }
     }
 }
