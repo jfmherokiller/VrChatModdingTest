@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="626da156-4262-482d-a1eb-7a8ecbdac776" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VrChatModdingTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VrChatModdingTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VrChatModdingTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VrChatModdingTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacroTesting/bin/Debug/MacroTesting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MacroTesting/bin/Debug/MacroTesting.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacroTesting/bin/Debug/MacroTesting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MacroTesting/bin/Debug/MacroTesting.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacroTesting/obj/Debug/MacroTesting.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MacroTesting/obj/Debug/MacroTesting.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacroTesting/obj/Debug/MacroTesting.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MacroTesting/obj/Debug/MacroTesting.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MacroTesting/obj/Debug/MacroTesting.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MacroTesting/obj/Debug/MacroTesting.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealBrowser/bin/Debug/RealBrowser.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/bin/Debug/RealBrowser.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealBrowser/bin/Debug/RealBrowser.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/bin/Debug/RealBrowser.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VRChatReplPort/obj/Debug/VRChatReplPort.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VRChatReplPort/obj/Debug/VRChatReplPort.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VideoPlayerKiller/obj/Debug/VideoPlayerKiller.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VideoPlayerKiller/obj/Debug/VideoPlayerKiller.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VrChatModdingTest.sln" beforeDir="false" afterPath="$PROJECT_DIR$/VrChatModdingTest.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VrChatModdingTest.sln.DotSettings.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/VrchatIrcClient/obj/Debug/VrchatIrcClient.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VrchatIrcClient/obj/Debug/VrchatIrcClient.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebrowserTesting/obj/Debug/WebrowserTesting.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebrowserTesting/obj/Debug/WebrowserTesting.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vrchatHumanized/obj/Debug/vrchatHumanized.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/vrchatHumanized/obj/Debug/vrchatHumanized.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacroTesting/bin/Debug/MacroTesting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacroTesting/bin/Debug/MacroTesting.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacroTesting/obj/Debug/MacroTesting.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MacroTesting/obj/Debug/MacroTesting.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealBrowser/bin/Debug/RealBrowser.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealBrowser/bin/Debug/RealBrowser.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RealBrowser/obj/Debug/RealBrowser.pdb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,14 +241,14 @@
         <option value="$PROJECT_DIR$/VrchatIrcClient/IrcConsoleGui.cs" />
         <option value="$PROJECT_DIR$/WebrowserTesting/MonoBehaviour1.cs" />
         <option value="$PROJECT_DIR$/RealBrowser/SizeT.cs" />
-        <option value="$PROJECT_DIR$/RealBrowser/FodyWeavers.xml" />
         <option value="$PROJECT_DIR$/RealBrowser/Properties/myres.Designer.cs" />
         <option value="$PROJECT_DIR$/RealBrowser/ExtractBrowserDependencies.cs" />
         <option value="$PROJECT_DIR$/MacroTesting/MonoBehaviour1.cs" />
-        <option value="$PROJECT_DIR$/RealBrowser/MonoBehaviour1.cs" />
         <option value="$PROJECT_DIR$/RealBrowser/OffScreenCEF.cs" />
         <option value="$PROJECT_DIR$/RealBrowser/OffscreenCEFCLient.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/RealBrowser/MonoBehaviour1.cs" />
+        <option value="$PROJECT_DIR$/RealBrowser/FodyWeavers.xml" />
       </list>
     </option>
   </component>
@@ -322,7 +312,7 @@
       <workItem from="1596404726713" duration="2723000" />
       <workItem from="1596412881221" duration="9678000" />
       <workItem from="1596434259371" duration="4238000" />
-      <workItem from="1596485882827" duration="11113000" />
+      <workItem from="1596485882827" duration="12336000" />
     </task>
     <task id="LOCAL-00001" summary="push latest code changes">
       <created>1596225744368</created>
@@ -446,10 +436,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596486425075" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596311843748">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596497732272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596311843748" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596497732272" />
     <state x="759" y="255" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1596438468385">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
