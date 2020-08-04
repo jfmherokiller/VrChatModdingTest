@@ -44,7 +44,7 @@ namespace RealBrowser
         private void Start()
         {
             this.StartCef();
-            DontDestroyOnLoad(this.gameObject.transform.root.gameObject);
+            //DontDestroyOnLoad(this.gameObject.transform.root.gameObject);
         }
 
         private void OnDestroy()
@@ -59,7 +59,10 @@ namespace RealBrowser
 
         private void FixedUpdate()
         {
-            CefRuntime.DoMessageLoopWork();
+            if (!this.shouldQuit)
+            {
+                CefRuntime.DoMessageLoopWork();
+            }
         }
 
         private void LateUpdate()
@@ -72,7 +75,6 @@ namespace RealBrowser
 
         private void StartCef()
         {
-            CefRuntime.Load();
             var cefMainArgs = new CefMainArgs(new string[] { });
             var cefApp = new OffscreenCEFClient.OffscreenCEFApp();
 
@@ -95,7 +97,7 @@ namespace RealBrowser
             CefRuntime.Initialize(cefMainArgs, cefSettings, cefApp, IntPtr.Zero);
 
             // Instruct CEF to not render to a window.
-            CefWindowInfo cefWindowInfo = CefWindowInfo.Create();
+            var cefWindowInfo = CefWindowInfo.Create();
             cefWindowInfo.SetAsWindowless(IntPtr.Zero, false);
 
             // Settings for the browser window itself (e.g. enable JavaScript?).
