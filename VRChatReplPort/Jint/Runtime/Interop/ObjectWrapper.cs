@@ -122,7 +122,6 @@ namespace Jint.Runtime.Interop
                 var type = Target.GetType();
                 foreach (var p in type.GetProperties(BindingFlags.Static | BindingFlags.Instance | BindingFlags.Public))
                 {
-                    if (p.PropertyType == type) continue;
                     var indexParameters = p.GetIndexParameters();
                     if (indexParameters.Length == 0)
                     {
@@ -134,7 +133,6 @@ namespace Jint.Runtime.Interop
 
                 foreach (var f in type.GetFields(BindingFlags.Static | BindingFlags.Instance | BindingFlags.Public))
                 {
-                    if (f.FieldType == type) continue;
                     var jsString = JsString.Create(f.Name);
                     processed?.Add(jsString);
                     yield return jsString;
