@@ -317,6 +317,7 @@
         <Compile Include="Jint\Runtime\TypeErrorException.cs" />
         <Compile Include="Jint\StrictModeScope.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="SpecialTypeFixes.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />

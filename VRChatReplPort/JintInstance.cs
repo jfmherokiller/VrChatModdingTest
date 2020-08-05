@@ -48,11 +48,10 @@ namespace PulsarCRepl
                 //return new ObjectWrapper(engine, new WrapperClass((Il2CppSystem.Object)target));
             //    throw new Exception($"Error you are trying to access an il2cpp type which does not have support yet");
             //}
-            if(target is Vector3)
+            if(target is Vector3 myvec)
             {
-                var myvec = (UnityEngine.Vector3) target;
                 //instance = new ObjectWrapper(engine, target);
-                instance = new ObjectWrapper(engine, new[]{myvec.x,myvec.y,myvec.z});
+                instance = new ObjectWrapper(engine, new SVector3(myvec.x,myvec.y,myvec.z));
                 //throw new Exception($"Error you are trying to access an il2cpp type which does not have support yet");
             }
             else
