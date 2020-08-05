@@ -1,0 +1,29 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <PackageId>Jint</PackageId>
+    <AssemblyTitle>Jint</AssemblyTitle>
+    <Description>Javascript interpreter for .NET which provides full ECMA 5.1 compliance.</Description>
+    <BuildNumber Condition="'$(BuildNumber)' == ''">0</BuildNumber>
+    <VersionPrefix>3.0.0-beta-$(BuildNumber)</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+    <PackageId>Jint</PackageId>
+    <PackageTags>javascript, interpreter</PackageTags>
+    <PackageProjectUrl>https://github.com/sebastienros/jint</PackageProjectUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/sebastienros/jint/master/LICENSE.txt</PackageLicenseUrl>
+
+    <!-- SourceLink support -->
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(SourceLinkEnabled)' != 'false'">
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
+  </ItemGroup>
+
+  <!-- Called after so that the <VersionSuffix> is built after the local ones -->
+  <Import Project="../Common.props"/>
+
+</Project>
