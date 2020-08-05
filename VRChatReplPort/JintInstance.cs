@@ -1,5 +1,8 @@
 using System;
+using System.CodeDom.Compiler;
 using System.IO;
+using System.Reflection;
+using System.Reflection.Emit;
 using Jint;
 using Jint.Native;
 using Jint.Native.Object;
@@ -48,6 +51,7 @@ namespace PulsarCRepl
                 //return new ObjectWrapper(engine, new WrapperClass((Il2CppSystem.Object)target));
             //    throw new Exception($"Error you are trying to access an il2cpp type which does not have support yet");
             //}
+            var thetype = target.GetType();
             if(target is Vector3 myvec)
             {
                 //instance = new ObjectWrapper(engine, target);
