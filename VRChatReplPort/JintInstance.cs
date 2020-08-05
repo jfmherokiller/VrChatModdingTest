@@ -42,13 +42,24 @@ namespace PulsarCRepl
 
         private ObjectInstance WrapObjectHandler(Engine engine, object target)
         {
-            if (target.ToString() == "Il2CppSystem.Type")
-            {
+            ObjectWrapper instance;
+            //if (target.ToString() == "Il2CppSystem.Type")
+            //{
                 //return new ObjectWrapper(engine, new WrapperClass((Il2CppSystem.Object)target));
-                throw new Exception($"Error you are trying to access an il2cpp type which does not have support yet");
+            //    throw new Exception($"Error you are trying to access an il2cpp type which does not have support yet");
+            //}
+            if(target is Vector3)
+            {
+                var myvec = (UnityEngine.Vector3) target;
+                //instance = new ObjectWrapper(engine, target);
+                instance = new ObjectWrapper(engine, new[]{myvec.x,myvec.y,myvec.z});
+                //throw new Exception($"Error you are trying to access an il2cpp type which does not have support yet");
             }
-
-            var instance = new ObjectWrapper(engine, target);
+            else
+            {
+                instance = new ObjectWrapper(engine, target);
+            }
+            
             if (instance.IsArrayLike)
             {
                 instance.SetPrototypeOf(engine.Array.PrototypeObject);

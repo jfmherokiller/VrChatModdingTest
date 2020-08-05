@@ -1,5 +1,6 @@
 ﻿
 using System;
+using System.Collections;
 using System.Threading.Tasks;
 using MelonLoader;
 
@@ -14,7 +15,7 @@ namespace PulsarCRepl
     
     public class PulsarCRepMod : MelonMod
     {
-        private JintInstance myinstance;
+        public static JintInstance myinstance;
         public void mycode()
         {
             JintBits.RunMe();
@@ -24,7 +25,16 @@ namespace PulsarCRepl
             //StartConsoleBasedRepl();
             //MelonModLogger.Log("Loaded JS");
             myinstance = new JintInstance();
+            myinstance.SetupEnginePieces();
             ClassInjector.RegisterTypeInIl2Cpp<JintConsoleGui>();
+        }
+
+        public override void OnUpdate()
+        {
+            if (Input.GetKeyDown(KeyCode.Keypad9))
+            {
+                bool flag = typeof(ICollection).IsAssignableFrom(typeof(Vector3));
+            }
         }
 
         private void StartConsoleBasedRepl()

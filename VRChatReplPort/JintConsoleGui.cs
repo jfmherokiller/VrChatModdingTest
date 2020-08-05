@@ -10,7 +10,6 @@ namespace PulsarCRepl
         private  bool ShowJsConsole;
         public string CodeString = "";
         private Rect windowRect = new Rect(20, 20, 1200, 500);
-        private JintInstance CodeInstance;
         public static Action<int> windowfunction;
         public Delegate ReferencedDelegate;
         public IntPtr MethodInfo;
@@ -21,8 +20,6 @@ namespace PulsarCRepl
             AntiGcList = new Il2CppSystem.Collections.Generic.List<MonoBehaviour>(1);
             AntiGcList.Add(this);
             windowfunction = ConsoleWindowDisplay;
-            CodeInstance = new JintInstance();
-            CodeInstance.SetupEnginePieces();
         }
         public JintConsoleGui(Delegate referencedDelegate, IntPtr methodInfo) : base(ClassInjector.DerivedConstructorPointer<JintConsoleGui>()) {
             ClassInjector.DerivedConstructorBody(this);
@@ -55,11 +52,11 @@ namespace PulsarCRepl
             GUILayout.EndScrollView();
             if (GUILayout.Button("Run Code",null))
             {
-                CodeInstance.ExecuteCode(CodeString);
+                PulsarCRepMod.myinstance.ExecuteCode(CodeString);
             }
             GUILayout.Label("Code Results Below",null);
             OutputScroll = GUILayout.BeginScrollView(OutputScroll,GUIStyle.none,null);
-            GUILayout.TextArea(CodeInstance.GetOutput(),null);
+            GUILayout.TextArea(PulsarCRepMod.myinstance.GetOutput(),null);
             GUILayout.EndScrollView();
             if (GUILayout.Button("Close Console",null))
             {
