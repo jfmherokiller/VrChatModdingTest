@@ -58,6 +58,18 @@ namespace PulsarCRepl
                 instance = new ObjectWrapper(engine, new SVector3(myvec.x,myvec.y,myvec.z));
                 //throw new Exception($"Error you are trying to access an il2cpp type which does not have support yet");
             }
+            else if(target is Transform mytrans)
+            {
+                instance = new ObjectWrapper(engine, new STransform(mytrans));
+            }
+            else if (target is Quaternion myquad)
+            {
+                instance = new ObjectWrapper(engine,new SQuaderton(myquad));
+            }
+            else if(target is GameObject myGameObject)
+            {
+                instance = new ObjectWrapper(engine,new SGameObject(myGameObject));
+            }
             else
             {
                 instance = new ObjectWrapper(engine, target);
