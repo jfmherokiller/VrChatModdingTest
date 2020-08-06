@@ -9,51 +9,41 @@ namespace PulsarCRepl
 
     public struct SVector3
     {
-        private float x;
-        private float y;
-        private float z;
+        private Vector3 internalVec3;
 
         public SVector3(float myvecX, float myvecY, float myvecZ)
         {
-            x = myvecX;
-            y = myvecY;
-            z = myvecZ;
+            internalVec3 = new Vector3(myvecX,myvecY,myvecZ);
         }
 
         public SVector3(Vector3 mytransPosition)
         {
-            x = mytransPosition.x;
-            y = mytransPosition.y;
-            z = mytransPosition.z;
+            internalVec3 = mytransPosition;
         }
 
         public float Z
         {
-            get => z;
-            set => z = value;
+            get => internalVec3.z;
+            set => internalVec3.z = value;
         }
 
         public float Y
         {
-            get => y;
-            set => y = value;
+            get => internalVec3.y;
+            set => internalVec3.y = value;
         }
 
         public float X
         {
-            get => x;
-            set => x = value;
+            get => internalVec3.x;
+            set => internalVec3.x = value;
         }
 
         public Vector3 GetOrginalVec()
         {
-            return new Vector3(x,y,z);
+            return internalVec3;
         }
-
-        public override string ToString()
-        {
-            return $"{x},{y},{z}";
-        }
+        
     }
 
     public struct STransform
@@ -121,22 +111,20 @@ namespace PulsarCRepl
 
     public struct SGameObject
     {
-        private STransform _transform;
-        private string _name;
+        private GameObject InternalGame;
         public SGameObject(GameObject myGameObject)
         {
-            _transform = new STransform(myGameObject.transform);
-            _name = myGameObject.name;
+            InternalGame = myGameObject;
         }
 
         public string Name
         {
-            get => _name;
+            get => InternalGame.name;
         }
 
         public STransform Transform
         {
-            get => _transform;
+            get => new STransform(InternalGame.transform);
         }
     }
 }
