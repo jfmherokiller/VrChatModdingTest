@@ -8,15 +8,9 @@ using Jint.Native;
 using Jint.Native.Object;
 using Jint.Runtime;
 using Jint.Runtime.Interop;
-using Jint.Runtime.References;
 using MelonLoader;
 using UnhollowerBaseLib;
-using UnhollowerBaseLib.Attributes;
-using UnhollowerRuntimeLib;
 using UnityEngine;
-using Console = System.Console;
-using Int32 = Il2CppSystem.Int32;
-using Object = System.Object;
 using Types = Jint.Runtime.Types;
 
 namespace PulsarCRepl
