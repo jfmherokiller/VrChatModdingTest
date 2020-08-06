@@ -21,6 +21,12 @@ namespace PulsarCRepl
             internalVec3 = mytransPosition;
         }
 
+        public Vector3? InternalVec3
+        {
+            set => internalVec3 = (Vector3) value;
+            get => null;
+        }
+
         public float Z
         {
             get => internalVec3.z;

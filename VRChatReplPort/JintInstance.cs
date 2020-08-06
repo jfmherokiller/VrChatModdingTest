@@ -90,6 +90,8 @@ namespace PulsarCRepl
             myengine = JintAdditons.AddGameSpecificClasses(myengine);
             myengine = myengine.Execute(
                 "function testing() {return cs_VRCPlayer.field_Internal_Static_VRCPlayer_0.transform}");
+            myengine = myengine.Execute(
+                "function worldUrl() { return \"https://vrchat.com/home/launch?worldId=\"+cs_RoomManagerBase.field_Internal_Static_ApiWorldInstance_0.instanceWorld.id}");
         }
 
         public string GetOutput()
@@ -115,7 +117,7 @@ namespace PulsarCRepl
             }
             catch (Exception e)
             {
-                engineOut = e.Message;
+                engineOut = e.ToString();
             }
         }
     }
