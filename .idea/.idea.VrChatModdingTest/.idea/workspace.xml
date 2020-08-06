@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="626da156-4262-482d-a1eb-7a8ecbdac776" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VrChatModdingTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VrChatModdingTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealBrowser/MonoBehaviour1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/MonoBehaviour1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealBrowser/OffScreenCEF.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/OffScreenCEF.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RealBrowser/RealBrowser.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RealBrowser/RealBrowser.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VRChatReplPort/bin/Debug/VRChatReplPort.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VRChatReplPort/bin/Debug/VRChatReplPort.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VRChatReplPort/bin/Debug/VRChatReplPort.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VRChatReplPort/bin/Debug/VRChatReplPort.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VRChatReplPort/obj/Debug/VRChatReplPort.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VRChatReplPort/obj/Debug/VRChatReplPort.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VRChatReplPort/obj/Debug/VRChatReplPort.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VRChatReplPort/obj/Debug/VRChatReplPort.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VRChatReplPort/obj/Debug/VRChatReplPort.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VRChatReplPort/obj/Debug/VRChatReplPort.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VRChatReplPort/obj/Debug/VRChatReplPort.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VRChatReplPort/obj/Debug/VRChatReplPort.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VrChatModdingTest/bin/Debug/VrChatModdingTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VrChatModdingTest/bin/Debug/VrChatModdingTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VrChatModdingTest/bin/Debug/VrChatModdingTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VrChatModdingTest/bin/Debug/VrChatModdingTest.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VrChatModdingTest/obj/Debug/VrChatModdingTest.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/VrChatModdingTest/obj/Debug/VrChatModdingTest.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VrChatModdingTest/obj/Debug/VrChatModdingTest.dll" beforeDir="false" afterPath="$PROJECT_DIR$/VrChatModdingTest/obj/Debug/VrChatModdingTest.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VrChatModdingTest/obj/Debug/VrChatModdingTest.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/VrChatModdingTest/obj/Debug/VrChatModdingTest.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,33 +39,125 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/VertexData/Normal.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RealBrowser/SizeT.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/503F9281-FE26-46C4-BDE5-E8F4226427BD/38/0acff946/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/Interfaces/IMaterialLibraryParser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/Interfaces/IFaceParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/107D1CC3-9921-484A-864D-A38AFAFAC52E/f5/60387fc1/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/Interfaces/IGroupParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/de/4f4fb270/Nullable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../jint/Jint/Native/JsBoolean.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/cb/d9ee10b1/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../jint/Jint/Native/JsValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RealBrowser/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/61/bdabd428/HideFromIl2CppAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/57/9b5006e3/UnhollowerBaseLib.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/c1/77820dd8/AlsoInitializeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/ff/3f4a4581/ObfuscatedNameAttribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD343A00-7478-4241-8FFB-DBB924B156DC/0d/6ff4bfff/CefRenderHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD343A00-7478-4241-8FFB-DBB924B156DC/18/a1573b7e/CefApp.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/DataStore/IFaceGroup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Runtime/Arguments.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C95E5E30-5F17-4386-8ED9-03E70222120F/85/abbd4e71/GUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/107D1CC3-9921-484A-864D-A38AFAFAC52E/fc/4da2e81b/Convert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/TypeConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A3843000-0C97-40E1-8FA0-9722C9CBA2C9/cc/704421b3/VideoScreen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Completion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Native/RegExp/RegExpPrototype.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/bd/d5cf516a/Type.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/107D1CC3-9921-484A-864D-A38AFAFAC52E/d8/ccfddfde/Attribute.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Native/JsValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/DataStore/IElementGroup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/DataStore/IVertexDataStore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Native/Object/ObjectClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Native/Object/ObjectInstance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Base/SimpleJSON.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/DataStore/IDataStore.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Native/Global/GlobalObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Native/ICallable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0880D09A-B8BB-4D8C-8A01-F336B95B94C8/26/b11ca508/CollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Runtime/Interop/DefaultTypeConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Native/Json/JsonSerializer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Options.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Base/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/StrictModeScope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Base/DDS_HEADER.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/90/85a56ad9/Il2CppObjectBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Native/Date/DatePrototype.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Native/Json/JsonParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Native/Json/JsonInstance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Engine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Helpers/Base/Util.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Helpers/Base/MaterialHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Collections/StringDictionarySlim.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Helpers/Base/TextureHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/A54D2270-18FB-46AC-B22F-A032F2FC4396/20/c5acd47b/0200005Epdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Helpers/Extensions/VectorExt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Collections/DictionarySlim.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/MyMod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/IrcConsoleGui.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Extensions/ReflectionExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Helpers/Extensions/ResourceExt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Runtime/TypeConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BCDAC8F0-893B-4B7B-BD0D-5ED871E6A2E5/e2/98fa75a7/VRCPlayerApi.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/IrcInstance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Extensions/JavascriptExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD343A00-7478-4241-8FFB-DBB924B156DC/d7/9d263489/CefResourceBundleHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RealBrowser/OffScreenCEF.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/503F9281-FE26-46C4-BDE5-E8F4226427BD/77/e5134c4d/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://D:/cefglue-master/CefGlue/Classes.Handlers/CefRenderHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/107D1CC3-9921-484A-864D-A38AFAFAC52E/eb/add2c97a/IEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RealBrowser/OffscreenCEFCLient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Unity Scripts/ModelData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Helpers/Base/ModelHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/CollectionUtilities.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/107D1CC3-9921-484A-864D-A38AFAFAC52E/67/0bc28c3b/TypeCode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/5d/3d05326b/IEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Descriptors/Specialized/IndexDescriptor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RealBrowser/Properties/myres.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/IrcChannel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RealBrowser/ExtractBrowserDependencies.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Descriptors/Specialized/PropertyInfoDescriptor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/IrcClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/JintInstance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RealBrowser/Properties/myres.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/IrcClientMessageSending.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/JavascriptRepl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/JintCombo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/IrcRegistrationInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/TextUtilities.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/503F9281-FE26-46C4-BDE5-E8F4226427BD/40/758f6378/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/Ctcp/CtcpClientMessageProcessing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/TwitchIrcClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/Ctcp/CtcpClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/Ctcp/CtcpEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/Collections/ReadOnlySet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/Collections/CollectionsUtilities.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/Properties/myrez.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/Properties/myrez.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RealBrowser/SizeT.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/Interfaces/IFaceParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/SpecialTypeFixes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VRChatReplPort/JintTypeGeneration.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/VertexData/Vertex.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Native/Object/ObjectInstance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/503F9281-FE26-46C4-BDE5-E8F4226427BD/c0/dfa3adcd/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/15/ae87830c/Enum.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Native/Symbol/GlobalSymbolRegistry.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../jint/Jint/Native/JsBoolean.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/cb/d9ee10b1/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VideoPlayerKiller/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../jint/Jint/Native/JsValue.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RealBrowser/packages.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Interop/DelegateWrapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Interop/SetterFunctionInstance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Interop/ClrPropertyDescriptorFactoriesKey.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/61/bdabd428/HideFromIl2CppAttribute.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Interop/TypeReference.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Interop/TypeReferencePrototype.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Interop/ObjectWrapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///MonoBehaviour1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Interop/IObjectConverter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Interop/ITypeConverter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Interop/IObjectWrapper.cs" root0="FORCE_HIGHLIGHTING" />
@@ -48,141 +165,88 @@
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Interop/NamespaceReference.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Interop/ClrFunctionInstance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrchatIrcClient/VrchatIrcGui.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/57/9b5006e3/UnhollowerBaseLib.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Interop/MethodInfoFunctionInstance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Interop/DefaultTypeConverter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1EEFB801-D711-4467-B4C9-A3DAE7E5C3C0/62/21b115b4/IrcClient.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/c1/77820dd8/AlsoInitializeAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/ff/3f4a4581/ObfuscatedNameAttribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD343A00-7478-4241-8FFB-DBB924B156DC/0d/6ff4bfff/CefRenderHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/References/Reference.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/7c/9ed38f19/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD343A00-7478-4241-8FFB-DBB924B156DC/18/a1573b7e/CefApp.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/DataStore/IFaceGroup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1EEFB801-D711-4467-B4C9-A3DAE7E5C3C0/eb/439af497/IrcServiceRegistrationInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/vrchatHumanized/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C95E5E30-5F17-4386-8ED9-03E70222120F/85/abbd4e71/GUI.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/107D1CC3-9921-484A-864D-A38AFAFAC52E/fc/4da2e81b/Convert.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/72A9CD3A-6867-4152-BC9D-0652675F1AEB/d5/a1b91f91/ExpansionKitApi.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/TypeConverter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6989DD71-47B8-4D84-A230-71A2322D70BC/7/Options.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A3843000-0C97-40E1-8FA0-9722C9CBA2C9/cc/704421b3/VideoScreen.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Completion.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/bd/d5cf516a/Type.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/107D1CC3-9921-484A-864D-A38AFAFAC52E/d8/ccfddfde/Attribute.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/DataStore/IElementGroup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/DataStore/IVertexDataStore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebrowserTesting/MonoBehaviour1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD343A00-7478-4241-8FFB-DBB924B156DC/e1/5254a19e/CefRuntime.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Base/SimpleJSON.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/DataStore/IDataStore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/Interfaces/IObjectParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VRChatReplPort/JintConsoleGui.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0880D09A-B8BB-4D8C-8A01-F336B95B94C8/26/b11ca508/CollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Base/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Base/DDS_HEADER.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Runtime/Interop/IObjectConverter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/Interfaces/ITypeParser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/90/85a56ad9/Il2CppObjectBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Runtime/Interop/MethodInfoFunctionInstance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/Interfaces/ITextureParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Runtime/Interop/IReferenceResolver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacroTesting/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Runtime/Interop/ITypeConverter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Runtime/Interop/TypeReference.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/Interfaces/IVertexParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/Interfaces/INormalParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1A6690BF-1A0F-4CA3-8695-463187FB14E9/a6/902fea79/VRC_UiShape.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MacroTesting/MonoBehaviour1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Runtime/Interop/ObjectWrapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/Interfaces/IUseMaterialParser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/Class1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Helpers/Base/Util.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Helpers/Base/MaterialHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Helpers/Base/TextureHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Helpers/Extensions/VectorExt.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/MyMod.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/IrcConsoleGui.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Helpers/Extensions/ResourceExt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1A6690BF-1A0F-4CA3-8695-463187FB14E9/06/d1e8df30/VRC_WebPanel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Runtime/Interpreter/JintStatementList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/3207F793-103A-4674-9454-15848BB40CC8/99/c623c46a/UnhollowerRuntimeLib.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BCDAC8F0-893B-4B7B-BD0D-5ED871E6A2E5/b9/ed00fa40/VRC_WebPanel.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BCDAC8F0-893B-4B7B-BD0D-5ED871E6A2E5/e2/98fa75a7/VRCPlayerApi.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/IrcInstance.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BCDAC8F0-893B-4B7B-BD0D-5ED871E6A2E5/96/2facad55/VRC_Interactable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3207F793-103A-4674-9454-15848BB40CC8/28/e501947f/DelegateSupport.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD343A00-7478-4241-8FFB-DBB924B156DC/d7/9d263489/CefResourceBundleHandler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RealBrowser/OffScreenCEF.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/503F9281-FE26-46C4-BDE5-E8F4226427BD/77/e5134c4d/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Native/Number/Dtoa/DiyFp.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Native/Number/Dtoa/CachePowers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/C0B2CCAE-143C-4C3A-B0B4-042FBF27FD0B/31/0c18efd8/Esprima.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AB2E9CF-16C2-42D6-878F-C93EA636D49F/72/987e1d5a/IL2CPP.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://D:/cefglue-master/CefGlue/Classes.Handlers/CefRenderHandler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/107D1CC3-9921-484A-864D-A38AFAFAC52E/eb/add2c97a/IEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RealBrowser/MonoBehaviour1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RealBrowser/OffscreenCEFCLient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RealBrowser/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Unity Scripts/ModelData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/SLog.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrChatModdingTest/Helpers/Base/ModelHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/DataStore/DataStore.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/CollectionUtilities.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/Elements/SubMesh.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3207F793-103A-4674-9454-15848BB40CC8/fd/a51dc6ff/Il2CppType.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/107D1CC3-9921-484A-864D-A38AFAFAC52E/67/0bc28c3b/TypeCode.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FF705DDD-C558-446C-9CEE-C7A2D160E1AA/cd/7b0f85cc/DelegateSupport.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VideoPlayerKiller/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6989DD71-47B8-4D84-A230-71A2322D70BC/1A/Reference.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/5d/3d05326b/IEnumerator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Descriptors/Specialized/IndexDescriptor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RealBrowser/Properties/myres.resx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/245EF205-F9BC-4A55-A148-1BF82ABE0146/85/f38028fe/Single.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/Elements/Group.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/Elements/Face.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6989DD71-47B8-4D84-A230-71A2322D70BC/52/ObjectWrapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/IrcChannel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RealBrowser/ExtractBrowserDependencies.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/VertexParser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../jint/Jint/Runtime/Descriptors/Specialized/PropertyInfoDescriptor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/IrcClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/UseMaterialParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/TypeParserBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VRChatReplPort/JintInstance.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RealBrowser/Properties/myres.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/TextureParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/ObjectParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F7CF39F2-18B8-4A02-B862-F021A7623B13/0f/f624d6ea/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/NormalParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/MaterialLibraryParser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/IrcClientMessageSending.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Runtime/Interpreter/Statements/JintStatement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/GroupParser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VRChatReplPort/JavascriptRepl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/FaceParser.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VRChatReplPort/JintCombo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Loaders/ObjLoaderFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Loaders/ObjLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/IrcRegistrationInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Loaders/MaterialStreamProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Loaders/MaterialLibraryLoaderFacade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Loaders/MaterialLibraryLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4BEC26B5-CBC7-4715-8442-F1499E984732/84/50427250/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Loaders/LoadResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Jint/Runtime/Interpreter/Expressions/JintCallExpression.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Loaders/LoaderBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Loaders/IObjLoaderFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Loaders/IObjLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VRChatReplPort/Class1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Loaders/IMaterialLibraryLoaderFacade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Loaders/IMaterialLibraryLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Common/StringExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/503F9281-FE26-46C4-BDE5-E8F4226427BD/40/758f6378/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/Vec3.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VrChatModdingTest/ObjLoader/Data/Material.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/984CFAA5-7DB5-46CE-A079-ED54168439CE/d1/b46a91f5/AssetBundle.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/TwitchIrcClient.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/Ctcp/CtcpClient.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/Options.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/Ctcp/CtcpEventArgs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/Collections/ReadOnlySet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/EsprimaExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/AssemblyInfoExtras.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/source/IrcDotNet/Properties/Resources.Designer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/Properties/myrez.resx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/HoistingScope.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/VrchatIrcClient/Properties/myrez.Designer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/DeclarationBindingType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../jint/Jint/StrictModeScope.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/4BEC26B5-CBC7-4715-8442-F1499E984732/94/1f20f36e/02000148.il" root0="SKIP_HIGHLIGHTING" />
@@ -192,7 +256,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/TextureParser.cs" />
         <option value="$PROJECT_DIR$/VrChatModdingTest/ObjLoader/TypeParsers/VertexParser.cs" />
         <option value="$PROJECT_DIR$/VrChatModdingTest/Unity Scripts/ModelData.cs" />
         <option value="$PROJECT_DIR$/VRChatReplPort/JavascriptRepl.cs" />
@@ -243,6 +306,7 @@
         <option value="$PROJECT_DIR$/RealBrowser/FodyWeavers.xml" />
         <option value="$PROJECT_DIR$/RealBrowser/OffScreenCEF.cs" />
         <option value="$PROJECT_DIR$/RealBrowser/MonoBehaviour1.cs" />
+        <option value="$PROJECT_DIR$/.git/info/exclude" />
       </list>
     </option>
   </component>
@@ -259,7 +323,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager" selected=".NET Project.VrChatModdingTest">
+    <configuration name="VrChatModdingTest" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/VrChatModdingTest/VrChatModdingTest.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -272,6 +354,11 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+      <item itemvalue=".NET Project.VrChatModdingTest" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -404,6 +491,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="push latest code changes" />
