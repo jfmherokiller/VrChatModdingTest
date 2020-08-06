@@ -1,6 +1,0 @@
-C:\Users\peter\RiderProjects\VrChatModdingTest\WebrowserTesting\bin\Debug\WebrowserTesting.dll
-C:\Users\peter\RiderProjects\VrChatModdingTest\WebrowserTesting\bin\Debug\WebrowserTesting.pdb
-C:\Users\peter\RiderProjects\VrChatModdingTest\WebrowserTesting\obj\Debug\WebrowserTesting.csprojAssemblyReference.cache
-C:\Users\peter\RiderProjects\VrChatModdingTest\WebrowserTesting\obj\Debug\WebrowserTesting.csproj.CoreCompileInputs.cache
-C:\Users\peter\RiderProjects\VrChatModdingTest\WebrowserTesting\obj\Debug\WebrowserTesting.dll
-C:\Users\peter\RiderProjects\VrChatModdingTest\WebrowserTesting\obj\Debug\WebrowserTesting.pdb

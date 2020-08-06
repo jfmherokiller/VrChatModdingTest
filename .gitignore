@@ -1,0 +1,12 @@
+/packages/
+**/obj
+**/bin
+.vs/**
+.idea/**
+**/bin/Debug
+MacroTesting/bin/Debug/**
+**.csprojAssemblyReference.cache
+**.csproj.CoreCompileInputs.cache
+**.csproj.FileListAbsolute.txt
+**.dll
+**.pdb

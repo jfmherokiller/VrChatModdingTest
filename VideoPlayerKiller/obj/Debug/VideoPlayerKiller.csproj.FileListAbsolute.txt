@@ -1,6 +1,0 @@
-C:\Users\peter\RiderProjects\VrChatModdingTest\VideoPlayerKiller\bin\Debug\VideoPlayerKiller.dll
-C:\Users\peter\RiderProjects\VrChatModdingTest\VideoPlayerKiller\bin\Debug\VideoPlayerKiller.pdb
-C:\Users\peter\RiderProjects\VrChatModdingTest\VideoPlayerKiller\obj\Debug\VideoPlayerKiller.csprojAssemblyReference.cache
-C:\Users\peter\RiderProjects\VrChatModdingTest\VideoPlayerKiller\obj\Debug\VideoPlayerKiller.csproj.CoreCompileInputs.cache
-C:\Users\peter\RiderProjects\VrChatModdingTest\VideoPlayerKiller\obj\Debug\VideoPlayerKiller.dll
-C:\Users\peter\RiderProjects\VrChatModdingTest\VideoPlayerKiller\obj\Debug\VideoPlayerKiller.pdb
