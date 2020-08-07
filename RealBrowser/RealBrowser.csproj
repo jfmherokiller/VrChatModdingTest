@@ -50,8 +50,8 @@
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\Il2CppSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="MelonLoader.ModHandler, Version=0.2.2.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\VrChatModdingTest\bin\Debug\MelonLoader.ModHandler.dll</HintPath>
+    <Reference Include="MelonLoader.ModHandler, Version=0.2.6.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\MelonLoader.ModHandler.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

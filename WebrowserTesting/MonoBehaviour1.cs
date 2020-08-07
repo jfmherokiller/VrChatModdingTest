@@ -4,8 +4,8 @@ using UnityEngine.UI;
 using VRCSDK2;
 using WebrowserTesting;
 
-[assembly: MelonModInfo(typeof(Classone), "WebBrowserSpawnTest", "1.0", "Author Name")]
-[assembly: MelonModGame(null, null)]
+[assembly: MelonInfo(typeof(Classone), "WebBrowserSpawnTest", "1.0", "Author Name")]
+[assembly: MelonGame(null, null)]
 namespace WebrowserTesting
 {
     public class Classone : MelonMod
