@@ -1,5 +1,8 @@
 ﻿using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Reflection;
+using Il2CppSystem;
 using Jint.Native.Array;
 using Jint.Native.Global;
 using Jint.Native.Object;
@@ -304,33 +307,76 @@ namespace Jint.Native.Json
             }
         }
 
+        private string SpecialUnityTypes(ObjectInstance value)
+        {
+            string AccessableParts = "";
+            var mytype = value.ToObject().GetType();
+            if (mytype.IsSubclassOf(typeof(Il2CppSystem.Object)))
+            {
+                
+            }
+            var mytypeString = $"{value.ToObject()}";
+            return mytypeString;
+        }
         private string SerializeObject(ObjectInstance value)
         {
             string final;
-
+            var AsmName = value.ToObject().GetType().Assembly.GetName().FullName;
             EnsureNonCyclicity(value);
             _stack.Push(value);
             var stepback = _indent;
             _indent += _gap;
-
             var k = _propertyList ?? value.GetOwnProperties()
-                .Where(x => x.Value.Enumerable)
-                .Select(x => x.Key)
-                .ToList();
-
+                        .Where(x => x.Value.Enumerable)
+                        .Select(x => x.Key)
+                        .ToList();
+            
             var partial = new List<string>();
             foreach (var p in k)
             {
-                var strP = Str(p, value);
-                if (!strP.IsUndefined())
+                
+                if (AsmName.Contains("Unity") ||
+                    AsmName.Contains("Assembly") || AsmName.Contains("Il2Cpp"))
                 {
-                    var member = Quote(p.ToString()) + ":";
-                    if (_gap != "")
+                    var strP = p;
+                    var innervalue = "";
+                    if (p.IsNumber() || p.IsString() || p.IsBoolean())
                     {
-                        member += " ";
+                        innervalue = p.ToObject().ToString();
                     }
-                    member += strP.AsString(); // TODO:This could be undefined
-                    partial.Add(member);
+                    
+                    if (!strP.IsUndefined())
+                    {
+                        var member = Quote(p.ToString()) + ":";
+                        if (_gap != "")
+                        {
+                            member += " ";
+                        }
+
+                        if (innervalue != "")
+                        {
+                            member += innervalue;
+                        }
+                        else
+                        {
+                            member += strP.AsString(); // TODO:This could be undefined
+                        }
+                        partial.Add(member);
+                    }
+                }
+                else
+                {
+                    var strP = Str(p, value);
+                    if (!strP.IsUndefined())
+                    {
+                        var member = Quote(p.ToString()) + ":";
+                        if (_gap != "")
+                        {
+                            member += " ";
+                        }
+                        member += strP.AsString(); // TODO:This could be undefined
+                        partial.Add(member);
+                    }
                 }
             }
             if (partial.Count == 0)
