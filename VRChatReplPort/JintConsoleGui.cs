@@ -16,10 +16,12 @@ namespace PulsarCRepl
         public Il2CppSystem.Collections.Generic.List<MonoBehaviour> AntiGcList;
         private Vector2 CodeScroll;
         private Vector2 OutputScroll;
+        private JintInstance myinstance;
         public JintConsoleGui(IntPtr obj0) : base(obj0) {
             AntiGcList = new Il2CppSystem.Collections.Generic.List<MonoBehaviour>(1);
             AntiGcList.Add(this);
             windowfunction = ConsoleWindowDisplay;
+            myinstance = PulsarCRepMod.MakeNewJintInstance();
         }
         public JintConsoleGui(Delegate referencedDelegate, IntPtr methodInfo) : base(ClassInjector.DerivedConstructorPointer<JintConsoleGui>()) {
             ClassInjector.DerivedConstructorBody(this);
@@ -33,6 +35,7 @@ namespace PulsarCRepl
             ReferencedDelegate = null;
             AntiGcList.Remove(this);
             AntiGcList = null;
+            myinstance = null;
         }
 
         public void OnGUI()
@@ -52,11 +55,11 @@ namespace PulsarCRepl
             GUILayout.EndScrollView();
             if (GUILayout.Button("Run Code",null))
             {
-                PulsarCRepMod.myinstance.ExecuteCode(CodeString);
+                myinstance.ExecuteCode(CodeString);
             }
             GUILayout.Label("Code Results Below",null);
             OutputScroll = GUILayout.BeginScrollView(OutputScroll,GUIStyle.none,null);
-            GUILayout.TextArea(PulsarCRepMod.myinstance.GetOutput(),null);
+            GUILayout.TextArea(myinstance.GetOutput(),null);
             GUILayout.EndScrollView();
             if (GUILayout.Button("Close Console",null))
             {

@@ -7,15 +7,16 @@ using MelonLoader;
 using PulsarCRepl;
 using UnhollowerRuntimeLib;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
-[assembly: MelonModInfo(typeof(PulsarCRepMod), "PulsarCheats2", "1.0", "Author Name")]
+[assembly: MelonModInfo(typeof(PulsarCRepMod), "JintDebugConsoleBase", "1.0", "Noah")]
 [assembly: MelonModGame(null, null)]
 namespace PulsarCRepl
 {
     
     public class PulsarCRepMod : MelonMod
     {
-        public static JintInstance myinstance;
+        public static GameObject myUI;
         public void mycode()
         {
             JintBits.RunMe();
@@ -24,17 +25,21 @@ namespace PulsarCRepl
         {
             //StartConsoleBasedRepl();
             //MelonModLogger.Log("Loaded JS");
-            myinstance = new JintInstance();
-            myinstance.SetupEnginePieces();
+
+            
+
             ClassInjector.RegisterTypeInIl2Cpp<JintConsoleGui>();
+        }
+
+        public static JintInstance MakeNewJintInstance()
+        {
+            var myinstance = new JintInstance();
+            myinstance.SetupEnginePieces();
+            return myinstance;
         }
 
         public override void OnUpdate()
         {
-            if (Input.GetKeyDown(KeyCode.Keypad9))
-            {
-                bool flag = typeof(ICollection).IsAssignableFrom(typeof(Vector3));
-            }
         }
 
         private void StartConsoleBasedRepl()
