@@ -306,18 +306,7 @@ namespace Jint.Native.Json
                 ExceptionHelper.ThrowTypeError(_engine, "Cyclic reference detected.");
             }
         }
-
-        private string SpecialUnityTypes(ObjectInstance value)
-        {
-            string AccessableParts = "";
-            var mytype = value.ToObject().GetType();
-            if (mytype.IsSubclassOf(typeof(Il2CppSystem.Object)))
-            {
-                
-            }
-            var mytypeString = $"{value.ToObject()}";
-            return mytypeString;
-        }
+        
         private string SerializeObject(ObjectInstance value)
         {
             string final;
