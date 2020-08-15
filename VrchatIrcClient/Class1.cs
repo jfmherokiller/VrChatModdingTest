@@ -1,5 +1,4 @@
 ﻿using MelonLoader;
-using UIExpansionKit.API;
 using UnhollowerRuntimeLib;
 using UnityEngine;
 using VrchatIrcClient;

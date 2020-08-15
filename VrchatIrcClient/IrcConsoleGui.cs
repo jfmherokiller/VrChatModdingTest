@@ -10,7 +10,6 @@ namespace VrchatIrcClient
         private  bool ShowJsConsole;
         public string CodeString = "";
         private Rect windowRect = new Rect(20, 20, 1200, 500);
-        private IrcInstance CodeInstance;
         public static Action<int> windowfunction;
         public Delegate ReferencedDelegate;
         public IntPtr MethodInfo;
