@@ -228,7 +228,6 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="ButtonApi.cs" />
         <Compile Include="Class1.cs" />
         <Compile Include="IrcInstance.cs" />
         <Compile Include="IrcConsoleGui.cs" />
@@ -281,7 +280,6 @@
         <Compile Include="source\IrcDotNet\StandardIrcClient.cs" />
         <Compile Include="source\IrcDotNet\TextUtilities.cs" />
         <Compile Include="source\IrcDotNet\TwitchIrcClient.cs" />
-        <Compile Include="VrchatIrcGui.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />

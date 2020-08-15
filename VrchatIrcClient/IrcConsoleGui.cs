@@ -21,7 +21,6 @@ namespace VrchatIrcClient
             AntiGcList = new Il2CppSystem.Collections.Generic.List<MonoBehaviour>(1);
             AntiGcList.Add(this);
             windowfunction = ConsoleWindowDisplay;
-            CodeInstance = new IrcInstance();
         }
         public IrcConsoleGui(Delegate referencedDelegate, IntPtr methodInfo) : base(ClassInjector.DerivedConstructorPointer<IrcConsoleGui>()) {
             ClassInjector.DerivedConstructorBody(this);
