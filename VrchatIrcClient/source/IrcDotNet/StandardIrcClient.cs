@@ -6,7 +6,9 @@ using System.Net;
 using System.Net.Sockets;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading;
+using Il2CppSystem.Security.Authentication;
 using IrcDotNet.Properties;
+using SslProtocols = System.Security.Authentication.SslProtocols;
 #if !SILVERLIGHT
 using System.Net.Security;
 
@@ -591,7 +593,9 @@ namespace IrcDotNet
                 var authTask = sslStream.AuthenticateAsClientAsync(targetHost);
                 authTask.Wait();
 #else
-                sslStream.AuthenticateAsClient(targetHost);
+                
+                sslStream.AuthenticateAsClient(targetHost, new X509Certificate2Collection(), SslProtocols.Tls12, false);
+                //sslStream.AuthenticateAsClient(targetHost);
 #endif
                 Debug.Assert(sslStream.IsAuthenticated);
                 return sslStream;

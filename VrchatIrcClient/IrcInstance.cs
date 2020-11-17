@@ -3,7 +3,6 @@ using System.Linq;
 using Harmony;
 using IrcDotNet;
 using MelonLoader;
-using VRC;
 
 namespace VrchatIrcClient
 {
@@ -78,20 +77,36 @@ namespace VrchatIrcClient
 
         private void ConnectMethod(string commandstring)
         {
-            if (commandstring.StartsWith("#/connect"))
+            var userdata = Class1.GetModData();
+            IrcUserRegistrationInfo myreg;
+            if (commandstring == "#/connect default")
             {
-                var hostargs = commandstring.Replace("#/connect", "").Trim().Split(' ');
                 myclient = new StandardIrcClient();
                 setup_events();
                 setup_settings();
-                var myreg = new IrcUserRegistrationInfo()
+                var server = userdata[3].Split(':');
+                myreg = new IrcUserRegistrationInfo()
                 {
-                    NickName = Player.prop_Player_0.prop_APIUser_0.displayName.Replace(' ', '_'),
-                    UserName = Player.prop_Player_0.prop_APIUser_0.displayName.Substring(0, 8),
-                    RealName = Player.prop_Player_0.prop_APIUser_0.displayName.Replace(' ', '_')
+                    NickName = userdata[2],
+                    UserName = userdata[0],
+                    RealName = userdata[1]
                 };
-                myclient.Connect(hostargs[0], int.Parse((Il2CppSystem.String) hostargs[1]), false, myreg);
+                myclient.Connect(server[0], int.Parse((Il2CppSystem.String) server[1]), bool.Parse(server[2]), myreg);
+                return;
             }
+            if (!commandstring.StartsWith("#/connect")) return;
+            var hostargs = commandstring.Replace("#/connect", "").Trim().Split(' ');
+            myclient = new StandardIrcClient();
+            setup_events();
+            setup_settings();
+
+            myreg = new IrcUserRegistrationInfo()
+            {
+                NickName = userdata[2],
+                UserName = userdata[0],
+                RealName = userdata[1]
+            };
+            myclient.Connect(hostargs[0], int.Parse((Il2CppSystem.String) hostargs[1]), false, myreg);
         }
 
         public void RecieveMessage(object sender, IrcMessageEventArgs e)

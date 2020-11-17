@@ -47,8 +47,8 @@
           <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\Il2Cppmscorlib.dll</HintPath>
           <Private>False</Private>
         </Reference>
-        <Reference Include="MelonLoader.ModHandler, Version=0.2.2.0, Culture=neutral, PublicKeyToken=null">
-          <HintPath>..\VrChatModdingTest\bin\Debug\MelonLoader.ModHandler.dll</HintPath>
+        <Reference Include="MelonLoader.ModHandler, Version=0.2.7.2, Culture=neutral, PublicKeyToken=null">
+          <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\MelonLoader.ModHandler.dll</HintPath>
           <Private>False</Private>
         </Reference>
         <Reference Include="Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -69,11 +69,11 @@
         </Reference>
         <Reference Include="System.Xml" />
         <Reference Include="System.Xml.Linq" />
-        <Reference Include="UnhollowerBaseLib, Version=0.4.8.0, Culture=neutral, PublicKeyToken=null">
+        <Reference Include="UnhollowerBaseLib, Version=0.4.9.0, Culture=neutral, PublicKeyToken=null">
           <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnhollowerBaseLib.dll</HintPath>
           <Private>False</Private>
         </Reference>
-        <Reference Include="UnhollowerRuntimeLib, Version=0.4.8.0, Culture=neutral, PublicKeyToken=null">
+        <Reference Include="UnhollowerRuntimeLib, Version=0.4.9.0, Culture=neutral, PublicKeyToken=null">
           <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnhollowerRuntimeLib.dll</HintPath>
           <Private>False</Private>
         </Reference>
@@ -89,7 +89,7 @@
           <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.CoreModule.dll</HintPath>
           <Private>False</Private>
         </Reference>
-        <Reference Include="UnityEngine.Il2CppAssetBundleManager, Version=0.2.6.0, Culture=neutral, PublicKeyToken=null">
+        <Reference Include="UnityEngine.Il2CppAssetBundleManager, Version=0.2.7.2, Culture=neutral, PublicKeyToken=null">
           <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\VRChat\MelonLoader\Managed\UnityEngine.Il2CppAssetBundleManager.dll</HintPath>
           <Private>False</Private>
         </Reference>
