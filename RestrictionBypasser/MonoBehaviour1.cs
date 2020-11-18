@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using System.Runtime.InteropServices;
 using Harmony;
 using MelonLoader;
 using RestrictionBypasser;
@@ -9,6 +10,7 @@ using UnhollowerBaseLib;
 using UnhollowerBaseLib.Runtime;
 using UnhollowerRuntimeLib;
 using UnityEngine;
+using Marshal = Il2CppSystem.Runtime.InteropServices.Marshal;
 using Object = UnityEngine.Object;
 
 [assembly: MelonInfo(typeof(MonoBehaviour1), "RestrictionKiller", "1.0", "Author Name")]
@@ -19,8 +21,6 @@ namespace RestrictionBypasser
     public class MonoBehaviour1 : MelonMod
     {
         public static string settingsCategory = "CustomComponentBlockList";
-        public static readonly string[] IrcMenuNames = {"IrcUserName", "IrcRealName","IrcNickName","IrcDefaultServer"};
-        public static readonly string[] IrcMenuDisplay = {"Username to use for Irc","Real Name to use for Irc","Nick Name to use for Irc","Default server to use <servername>:<port>:<useSSL>"};
         public void RegisterModPrefs()
         {
             MelonPrefs.RegisterCategory(settingsCategory, "BlockList");
@@ -63,19 +63,27 @@ namespace RestrictionBypasser
             Imports.Hook(realPtr,myrealFunct);
         }
 
-        public static void FakeMethod(Component aaaa)
+        public static unsafe void FakeMethod(IntPtr aaaa)
         {
-            // var TheTypes = GetTypes();
-            // if(TheTypes == null) return;
-            // if(!TheTypes.Any()) return;
-            // if(aaaa == null) return;
-            // foreach (var type in TheTypes)
-            // {
-            //     if (aaaa.GetType().IsAssignableFrom(type))
-            //     {
-            //         Object.Destroy(aaaa);
-            //     }
-            //}
+            var objectPtr = UnhollowerSupport.Il2CppObjectPtrToIl2CppObject<Component>(aaaa);
+            //var testIng = Il2CppType.TypeFromPointer(aaaa, nameof(UnityEngine.Component));
+            if(objectPtr == null) return;
+           // MelonLogger.Log(objectPtr.name);
+            var TheTypes = GetTypes();
+            if(TheTypes == null) return;
+            if(!TheTypes.Any()) return;
+            //var myobj = Marshal.PtrToStructure<Component>(aaaa);
+            //MelonLogger.Log(&aaaa->name);
+             foreach (var type in TheTypes)
+             {
+                 if (!objectPtr.GetType().IsAssignableFrom(type)) continue;
+                 //MelonLogger.Log(objectPtr.name);
+                 Object.Destroy(objectPtr);
+             }
+            //Object.Destroy(aaaa);
+            
+             //MelonLogger.Log(test);
+            return;
         }
     }
 }
